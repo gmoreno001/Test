@@ -1,0 +1,13 @@
+# Font style metadata
+name = "Custom"
+
+# Optional Google font URL
+google_fonts = "Spartan:400,600|Nunito:400,700"
+
+# Font families
+heading_font = "Spartan"
+body_font = "Nunito"
+nav_font = "Spartan"
+mono_font = "Spartan"
+
+
