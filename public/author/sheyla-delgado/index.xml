@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sheyla Delgado | Gina Moreno</title>
+    <link>/author/sheyla-delgado/</link>
+      <atom:link href="/author/sheyla-delgado/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sheyla Delgado</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>media/icon.png</url>
+      <title>Sheyla Delgado</title>
+      <link>/author/sheyla-delgado/</link>
+    </image>
+    
+    <item>
+      <title>Reported Crime In Map Communities Compared With Other NYC Areas</title>
+      <link>/publication/map-update-5/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/map-update-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinions And Perceptions Of Residents In New York City Public Housing</title>
+      <link>/publication/map-update-4/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/map-update-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Safety Trends In Map Communities And Matched Comparison Areas</title>
+      <link>/publication/map-update-3/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/map-update-3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

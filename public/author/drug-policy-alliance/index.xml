@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drug Policy Alliance | Gina Moreno</title>
+    <link>/author/drug-policy-alliance/</link>
+      <atom:link href="/author/drug-policy-alliance/index.xml" rel="self" type="application/rss+xml" />
+    <description>Drug Policy Alliance</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>media/icon.png</url>
+      <title>Drug Policy Alliance</title>
+      <link>/author/drug-policy-alliance/</link>
+    </image>
+    
+    <item>
+      <title>Assessing New York’s Medical Marijuana Program. Problems of Patient Access and Affordability</title>
+      <link>/publication/access-mmj/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/access-mmj/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

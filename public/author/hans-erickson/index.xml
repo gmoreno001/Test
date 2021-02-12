@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hans Erickson | Gina Moreno</title>
+    <link>/author/hans-erickson/</link>
+      <atom:link href="/author/hans-erickson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hans Erickson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>media/icon.png</url>
+      <title>Hans Erickson</title>
+      <link>/author/hans-erickson/</link>
+    </image>
+    
+    <item>
+      <title>Opinions And Perceptions Of Residents In New York City Public Housing. More Findings From Household Surveys In Map Communities And Non-Map Communities</title>
+      <link>/publication/map-update-6/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/map-update-6/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

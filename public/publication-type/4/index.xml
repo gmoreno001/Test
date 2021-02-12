@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | Gina Moreno</title>
+    <link>/publication-type/4/</link>
+      <atom:link href="/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>media/icon.png</url>
+      <title>4</title>
+      <link>/publication-type/4/</link>
+    </image>
+    
+    <item>
+      <title>Returning Home. A Descriptive Evaluation of Prepare in New York City.</title>
+      <link>/publication/osborne-prepare/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/osborne-prepare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinions And Perceptions Of Residents In New York City Public Housing. More Findings From Household Surveys In Map Communities And Non-Map Communities</title>
+      <link>/publication/map-update-6/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/map-update-6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reported Crime In Map Communities Compared With Other NYC Areas</title>
+      <link>/publication/map-update-5/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/map-update-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Easily Overstated. Estimating the Relationship Between State Justice Policy Environments and Falling Rates of Youth Confinement</title>
+      <link>/publication/ojjdp-youth-confinemnet/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/ojjdp-youth-confinemnet/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Opinions And Perceptions Of Residents In New York City Public Housing</title>
+      <link>/publication/map-update-4/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/map-update-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Safety Trends In Map Communities And Matched Comparison Areas</title>
+      <link>/publication/map-update-3/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/map-update-3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

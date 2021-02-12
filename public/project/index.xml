@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Gina Moreno</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>media/icon.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Estimating causal relationships among youth justice policies and rates of juvenile confinement</title>
+      <link>/project/ojjdp-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/ojjdp-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation of the Osborne Association’s ReFORM Program</title>
+      <link>/project/osborne-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/osborne-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mayor&#39;s Action Plan (MAP) Outcome Evaluation</title>
+      <link>/project/map-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/map-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
