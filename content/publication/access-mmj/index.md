@@ -24,7 +24,7 @@ tags:
 title: Assessing New York’s Medical Marijuana Program. Problems of Patient Access and Affordability
 
 links:
-- name: "Online Publication"
+- name: "Click to view op-ed"
   url: "https://drugpolicy.org/resource/assessing-new-yorks-medical-marijuana-program-problems-patient-access-and-affordability"
   
 url_pdf: https://drugpolicy.org/sites/default/files/NY%20MMJ%20Implementation%20Report%20Q1%20June%2013%202016.pdf
