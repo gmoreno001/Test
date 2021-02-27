@@ -28,9 +28,9 @@ title: Easily Overstated. Estimating the Relationship Between State Justice Poli
 links:
 - name: "Online report"
   url: "https://johnjayrec.nyc/2020/01/01/easilyoverstated2020/"
-url_code: https://www.icpsr.umich.edu/web/ICPSR/studies/37618
-url_dataset: https://www.icpsr.umich.edu/web/ICPSR/studies/37618
-url_pdf: https://johnjayrec.nyc/wp-content/uploads/2020/01/EasilyOverstated2020-1.pdf
+url_code: "https://www.icpsr.umich.edu/web/ICPSR/studies/37618"
+url_dataset: "https://www.icpsr.umich.edu/web/ICPSR/studies/37618"
+url_pdf: "https://johnjayrec.nyc/wp-content/uploads/2020/01/EasilyOverstated2020-1.pdf"
 ---
 
 {{% callout note %}}
