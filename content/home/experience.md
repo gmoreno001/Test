@@ -24,6 +24,7 @@ date_format: Jan 2006
 
 experience:
   - title: Senior Research Analyst 
+    image: "assets/images/jjayrec_logo.png"
     company: John Jay College Research and Evaluation Center
     company_url: 'https://johnjayrec.nyc/'
     location: New York City 

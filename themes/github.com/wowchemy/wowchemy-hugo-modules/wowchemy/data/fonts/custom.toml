@@ -2,12 +2,12 @@
 name = "Custom"
 
 # Optional Google font URL
-google_fonts = "Spartan:400,600|Nunito:400,700"
+google_fonts = "Alegreya+Sans:500,700|Nunito:400,700"
 
 # Font families
-heading_font = "Spartan"
+heading_font = "Alegreya Sans"
 body_font = "Nunito"
-nav_font = "Spartan"
-mono_font = "Spartan"
+nav_font = "Alegreya Sans"
+mono_font = "Alegreya Sans"
 
 
