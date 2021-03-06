@@ -24,7 +24,8 @@ tags:
 title: Opinions And Perceptions Of Residents In New York City Public Housing. More Findings From Household Surveys In Map Communities And Non-Map Communities
 
 links:
+- name: "PDF"
+  url: "https://johnjayrec.nyc/wp-content/uploads/2020/10/MAP_EvalUpdate06.pdf"
 - name: "Online Report"
   url: "https://johnjayrec.nyc/2020/10/29/mapupdate6/"
-url_pdf: https://johnjayrec.nyc/wp-content/uploads/2020/10/MAP_EvalUpdate06.pdf
 ---

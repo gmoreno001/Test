@@ -25,7 +25,8 @@ tags:
 title: Public Safety Trends In Map Communities And Matched Comparison Areas
 
 links:
+- name: "PDF"
+  url: "https://johnjayrec.nyc/wp-content/uploads/2019/05/MAP_EvalUpdate03.pdf"
 - name: "Online Report"
   url: "https://johnjayrec.nyc/2019/05/10/mapupdate3/"
-url_pdf: https://johnjayrec.nyc/wp-content/uploads/2019/05/MAP_EvalUpdate03.pdf
 ---

@@ -25,7 +25,8 @@ tags:
 title: Reported Crime In Map Communities Compared With Other NYC Areas
 
 links:
+- name: "PDF"
+  url: "https://johnjayrec.nyc/wp-content/uploads/2020/06/MAP_EvalUpdate5.pdf"
 - name: "Online Report"
   url: "https://johnjayrec.nyc/2020/06/25/mapupdate5/"
-url_pdf: https://johnjayrec.nyc/wp-content/uploads/2020/06/MAP_EvalUpdate5.pdf
 ---

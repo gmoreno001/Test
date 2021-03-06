@@ -24,7 +24,9 @@ summary: This primer on reading research synthesizes best practices and guidelin
 
 tags:
 - Drug policy reform
-
 title: Primer on Reading Research
-url_pdf: https://drugpolicy.org/sites/default/files/documents/Primer%20on%20Reading%20Research_July%202016.pdf?_ga=2.147573170.488374729.1608321922-493971382.1608321922
+
+links:
+- name: "PDF"
+  url: "https://drugpolicy.org/sites/default/files/documents/Primer%20on%20Reading%20Research_July%202016.pdf?_ga=2.147573170.488374729.1608321922-493971382.1608321922"
 ---

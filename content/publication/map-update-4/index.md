@@ -24,7 +24,8 @@ tags:
 title: Opinions And Perceptions Of Residents In New York City Public Housing
 
 links:
+- name: "PDF"
+  url: "https://johnjayrec.nyc/wp-content/uploads/2019/12/MAP_EvalUpdate04.pdf"
 - name: "Online Report"
   url: "https://johnjayrec.nyc/2019/12/13/mapupdate4/"
-url_pdf: https://johnjayrec.nyc/wp-content/uploads/2019/12/MAP_EvalUpdate04.pdf
 ---
