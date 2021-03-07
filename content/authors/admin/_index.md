@@ -52,8 +52,6 @@ social:
 highlight_name: true  
 ---
 
-Hello! 
-
 I am currently a [**Senior Research Analyst**](https://johnjayrec.nyc/people/) at the [**Research and Evaluation Center at John Jay College**](https://johnjayrec.nyc/), where I work on projects related to examining, measuring and evaluating the impact of various innovations in justice policy and practice. 
 
 Over the years, my college fellowships and academic career have shaped my research interests which lie at the intersection of justice policy reform and data analysis. Having recently graduated in 2020, I am not in school at the moment but consider myself a forever learner.

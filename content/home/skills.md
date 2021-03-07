@@ -10,7 +10,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 20
 
 title: Core Data Skills
 subtitle:
@@ -24,7 +24,7 @@ feature:
   icon_pack: fas
   name: Wrangling
   
-- description: Well-versed in multivariate, regression, and time series analysis, count data modeling. Fluent in Stata and R
+- description: Well-versed in multivariate, regression, and time series analysis, count data modeling. Fluent in Stata and R (5+ years)
   icon: table
   icon_pack: fas
   name: Analysis

@@ -7,13 +7,13 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 30
 
 title: Featured experiences
 subtitle: 
 
 # Date format for experience
-#   Refer to https://wowchemy.com/docs/customization/#date-format
+# Refer to https://wowchemy.com/docs/customization/#date-format
 date_format: Jan 2006
 
 # Experiences.

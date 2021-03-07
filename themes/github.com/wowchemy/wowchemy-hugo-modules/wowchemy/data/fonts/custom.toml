@@ -2,12 +2,15 @@
 name = "Custom"
 
 # Optional Google font URL
-google_fonts = "Alegreya+Sans:500,700|Nunito:400,700"
+google_fonts = "Lora:400,700|Roboto+Mono|Roboto:400,700|Nunito:400,700"
 
 # Font families
-heading_font = "Alegreya Sans"
+heading_font = "Lora"
 body_font = "Nunito"
-nav_font = "Alegreya Sans"
-mono_font = "Alegreya Sans"
+nav_font = "Lora"
+mono_font = "Roboto Mono"
 
+# Font size
+font_size = "18"
+font_size_small = "16"
 
