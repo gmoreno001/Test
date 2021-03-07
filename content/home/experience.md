@@ -70,7 +70,7 @@ experience:
     
   - title: John Jay Vera Fellow
     company: Vera Institute of Justice 
-    company_url: 'https://drugpolicy.org/'
+    company_url: 'https://www.vera.org/projects/college-in-prison/learn-more'
     location: New York City
     date_start: '2014-09-01'
     date_end: '2015-06-01'

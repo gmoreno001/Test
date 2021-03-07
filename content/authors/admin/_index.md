@@ -24,12 +24,12 @@ education:
 email: ""
 highlight_name: false
 interests:
-- Criminal justice program evaluation
-- Drug policy reform and analysis
+- Justice program evaluation
+- Drug policy reform 
 - Quantitative research methods
 organizations:
 - name: John Jay College Research and Evaluation Center
-  url: 
+  url: https://johnjayrec.nyc/
 role: Senior Research Analyst
 social:
 - icon: envelope
@@ -52,10 +52,12 @@ social:
 highlight_name: true  
 ---
 
-I am currently a Senior Research Analyst at the [Research and Evaluation Center at John Jay College](https://johnjayrec.nyc/), where I work on projects related to examining, measuring and evaluating the impact of various innovations in justice policy and practice. 
+Hello! 
+
+I am currently a [**Senior Research Analyst**](https://johnjayrec.nyc/people/) at the [**Research and Evaluation Center at John Jay College**](https://johnjayrec.nyc/), where I work on projects related to examining, measuring and evaluating the impact of various innovations in justice policy and practice. 
 
 Over the years, my college fellowships and academic career have shaped my research interests which lie at the intersection of justice policy reform and data analysis. Having recently graduated in 2020, I am not in school at the moment but consider myself a forever learner.
 
 On a less serious note, I enjoy trying out recipes and documenting my successes and failures on [Flickr](https://www.flickr.com/photos/139043990@N02/albums) (though I am not into photography aspect of it). 
 
-Feel free to reach out or [connect](/#contact) with me! 
+Feel free to reach out or [**connect**](/#contact) with me! 
