@@ -13,7 +13,7 @@ image:
 
 publication: In [*Times Union, Commentary*](https://www.timesunion.com/)
 publication_types:
-- "0"
+- "9"
 publishDate: "2016-09-07T00:00:00Z"
 
 summary: This op-ed calls for the expansion and implementation of recommendations made by New York's Dept. of Health on New York's medical marijuana program 

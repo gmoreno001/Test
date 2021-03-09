@@ -10,6 +10,8 @@ menu:
 summary: Part of M.A. in Criminal Justice Program
 title: Policy Analysis in Criminal Justice
 weight: 1
+tags:
+- Research
 ---
 
 ### *The Addiction Institute At Mt. Sinai. An Evaluation Study of Single Session Therapy with Dr. Kimora*

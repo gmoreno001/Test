@@ -13,7 +13,7 @@ image:
   preview_only: false
 
 publication_types:
-- "3"
+- "7"
 
 publishDate: "2016-12-01T00:00:00Z"
 

@@ -16,7 +16,7 @@ image:
 publication: In [*Department of Research and Academic Engagement*](https://drugpolicy.org/about-us/departments-and-state-offices/research-academic-engagement)
 
 publication_types:
-- "0"
+- "4"
 
 publishDate: "2016-07-01T00:00:00Z"
 

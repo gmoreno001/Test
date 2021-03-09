@@ -10,9 +10,9 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 15
+weight: 25
 
-title: Core Data Skills
+title: Interests
 subtitle:
 
 # Showcase personal skills or business features.
@@ -20,20 +20,20 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 
-- description: Data sets I have worked with include local, state, federal government agency data, Open Portal data, courts data, hospital admissions data
-  icon: broom
+- description: Running, Interval training, Mobility routines
+  icon: heartbeat
   icon_pack: fas
-  name: Wrangling
+  name: Physical Fitness 
   
-- description: Well-versed in multivariate regression, time series analysis, and count data modeling. Fluent in Stata and R (5+ years)
-  icon: table
+- description: Recipe mining, Meal prepping, Reading nutrition labels 
+  icon: utensils
   icon_pack: fas
-  name: Analysis
+  name: Cooking
   
-- description: I strive to create visuals that convey insights simply and meaningfully at various stages of the data analysis process
-  icon: chart-pie
-  icon_pack: fas
-  name: Visualization
+#- description: Foreign language movies and music, Creative non-fiction
+#  icon: broom
+#  icon_pack: fas
+#  name: Entertainment
   
 
 # Uncomment to use emoji icons.

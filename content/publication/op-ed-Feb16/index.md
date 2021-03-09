@@ -13,7 +13,7 @@ projects:
 - internal-project
 publication: In [*Times Union, Commentary*](https://www.timesunion.com/)
 publication_types:
-- "0"
+- "9"
 publishDate: "2016-02-02T00:00:00Z"
 
 summary: This op-ed draws attention to the serious barriers to access patients in need continue to face since the launch of New York's medical marijuana program
