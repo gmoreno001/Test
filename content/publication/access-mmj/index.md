@@ -7,12 +7,15 @@ authors:
 date: "2016-06-12T00:00:00Z"
 doi: ""
 featured: false
+
 image:
   caption: 'Image credit: **CCNY**'
   focal_point: "2"
   preview_only: false
+
 projects:
-- external-project
+- PolicyAdvocacy-project
+
 publication: ""
 publication_short: ""
 publication_types:
@@ -24,9 +27,13 @@ tags:
 title: Assessing New York’s Medical Marijuana Program. Problems of Patient Access and Affordability
 
 links:
-- name: "PDF"
+- icon: file-pdf
+  icon_pack: fas
+  name: "PDF"
   url: "https://drugpolicy.org/sites/default/files/NY%20MMJ%20Implementation%20Report%20Q1%20June%2013%202016.pdf"
-- name: "Online report"
+- icon: external-link-alt
+  icon_pack: fas
+  name: "Online report"
   url: "https://drugpolicy.org/resource/assessing-new-yorks-medical-marijuana-program-problems-patient-access-and-affordability"
 ---
 

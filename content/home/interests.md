@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 25
 
-title: Interests
+title: Other Interests
 subtitle:
 
 # Showcase personal skills or business features.
@@ -28,13 +28,12 @@ feature:
 - description: Recipe mining, Meal prepping, Reading nutrition labels 
   icon: utensils
   icon_pack: fas
-  name: Cooking
+  name: Food
   
 #- description: Foreign language movies and music, Creative non-fiction
 #  icon: broom
 #  icon_pack: fas
 #  name: Entertainment
-  
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"

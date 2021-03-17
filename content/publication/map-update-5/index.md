@@ -5,28 +5,40 @@ authors:
 - admin
 - Richard Espinobarros
 - Jeffrey A. Butts
+
 date: "2020-06-25T00:00:00Z"
+
 doi: ""
+
 featured: false
+
 image:
   caption: 'Image credit: **iStock**'
   focal_point: Smart
   preview_only: false
+
 projects:
 - MAP-project
 
 publication_types:
 - "4"
+
 publishDate: "2020-06-25T00:00:00Z"
 
 summary: MAP Update 5
+
 tags:
 - Research and evaluation
+
 title: Reported Crime In Map Communities Compared With Other NYC Areas
 
 links:
-- name: "PDF"
+- icon: file-pdf
+  icon_pack: fas
+  name: "PDF"
   url: "https://johnjayrec.nyc/wp-content/uploads/2020/06/MAP_EvalUpdate5.pdf"
-- name: "Online Report"
+- icon: external-link-alt
+  icon_pack: fas
+  name: "Online Report"
   url: "https://johnjayrec.nyc/2020/06/25/mapupdate5/"
 ---

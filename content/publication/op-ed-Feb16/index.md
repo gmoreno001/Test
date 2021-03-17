@@ -1,28 +1,41 @@
 ---
 abstract: 
+
 authors:
 - admin
+
 date: "2016-02-02T00:00:00Z"
+
 doi: ""
+
 featured: false
+
 image:
   caption: 'Image credit: **Times Union**'
   focal_point: ""
   preview_only: false
+
 projects:
-- internal-project
+- PolicyAdvocacy-project
+
 publication: In [*Times Union, Commentary*](https://www.timesunion.com/)
+
 publication_types:
 - "9"
+
 publishDate: "2016-02-02T00:00:00Z"
 
 summary: This op-ed draws attention to the serious barriers to access patients in need continue to face since the launch of New York's medical marijuana program
+
 tags: 
 - Drug policy reform
+
 title: Ease access to medical marijuana
 
 links:
-- name: "Online Publication"
+- icon: newspaper
+  icon_pack: fas
+  name: "Online Publication"
   url: "https://www.timesunion.com/tuplus-opinion/article/Ease-access-to-medical-marijuana-6801615.php"
 ---
 

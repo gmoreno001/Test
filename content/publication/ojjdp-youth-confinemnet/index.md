@@ -26,13 +26,21 @@ tags:
 title: Easily Overstated. Estimating the Relationship Between State Justice Policy Environments and Falling Rates of Youth Confinement
 
 links:
-- name: "PDF"
+- icon: file-pdf
+  icon_pack: fas
+  name: "PDF"
   url: "https://johnjayrec.nyc/wp-content/uploads/2020/01/EasilyOverstated2020-1.pdf"
-- name: "Online report"
+- icon: external-link-alt
+  icon_pack: fas
+  name: "Online report"
   url: "https://johnjayrec.nyc/2020/01/01/easilyoverstated2020/"
-- name: "Code"
+- icon: file-code
+  icon_pack: fas
+  name: "Code"
   url: "https://www.icpsr.umich.edu/web/ICPSR/studies/37618"
-- name: "Dataset"
+- icon: table
+  icon_pack: fas
+  name: "Dataset"
   url: "https://www.icpsr.umich.edu/web/ICPSR/studies/37618"
 ---
 

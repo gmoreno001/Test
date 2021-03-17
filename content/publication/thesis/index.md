@@ -8,7 +8,7 @@ date: "2016-12-01T00:00:00Z"
 featured: false
 
 image:
-  caption: 'Image credit: **Shutterstock**'
+  caption: 'Image credit: **Collage**'
   focal_point: ""
   preview_only: false
 
@@ -17,11 +17,12 @@ publication_types:
 
 publishDate: "2016-12-01T00:00:00Z"
 
-summary: In my thesis, I sought to investigate the potential associtation of contextual factors such as racial composition, level of political conservatism, religiosity etc. on county-level death penalty usage from 2012 to 2014. 
+summary: In my thesis, I sought to investigate the potential association of contextual factors such as racial composition, level of political conservatism, religiosity etc. on county-level death penalty usage from 2012 to 2014. 
 
 tags:
 - Research
+- Coursework
 
 title: Cruel and Unusual. Exploring the Role of Context in County-level Disparities in Death Penalty Usage
-url_pdf: 
+url_pdf: "media/Gina_MA Thesis_Dec 2016.pdf"
 ---

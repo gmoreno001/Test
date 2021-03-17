@@ -3,26 +3,39 @@ abstract:
 authors:
 - Kate Hintz
 - admin
+
 date: "2016-09-07T00:00:00Z"
+
 doi: ""
+
 featured: false
+
 image:
   caption: 'Image credit: **Times Union**'
   focal_point: ""
   preview_only: false
 
+projects:
+- PolicyAdvocacy-project
+
 publication: In [*Times Union, Commentary*](https://www.timesunion.com/)
+
 publication_types:
 - "9"
+
 publishDate: "2016-09-07T00:00:00Z"
 
 summary: This op-ed calls for the expansion and implementation of recommendations made by New York's Dept. of Health on New York's medical marijuana program 
+
 tags: 
 - Drug policy reform
+
 title: Expand list of eligible conditions
 
 links:
-- name: "Online Publication"
+- icon: newspaper
+  icon_pack: fas
+  name: "Online Publication"
   url: "https://www.timesunion.com/tuplus-opinion/article/Ease-access-to-medical-marijuana-6801615.php"
 ---
 
