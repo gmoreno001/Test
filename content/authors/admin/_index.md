@@ -10,6 +10,7 @@ superuser: true
 bio: My research interests include criminal justice program evaluation, drug policy reform, and quantitative research methods
 
 # Education to show in About widget
+
 education:
   courses:
   - course: Master of Science in Statistics
@@ -21,8 +22,11 @@ education:
   - course: Bachelor of Arts in Criminal Justice
     institution: John Jay College, CUNY
     year: 2016
+
 email: ""
-highlight_name: false
+
+highlight_name: true
+
 interests:
 - Justice program evaluation
 - Drug policy reform 
@@ -32,18 +36,18 @@ organizations:
   url: https://johnjayrec.nyc/
 role: Senior Research Analyst
 social:
-- icon: envelope
-  icon_pack: fas
-  link: /#contact
+- icon: github
+  icon_pack: fab
+  link: https://github.com/gmoreno001
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GinaMoreno__
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/ginamoreno482/
 - icon: flickr
   icon_pack: fab
   link: https://www.flickr.com/photos/139043990@N02/albums
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/ginamoreno482/
 - icon: r-project
   icon_pack: fab
   link: https://rpubs.com/GinaMoreno__
@@ -56,6 +60,6 @@ I am currently a [**Senior Research Analyst**](https://johnjayrec.nyc/people/) a
 
 Over the years, my college fellowships and academic career have shaped my research interests which lie at the intersection of justice policy reform and data analysis. Having recently graduated in 2020, I am not in school at the moment but consider myself a forever learner.
 
-On a less serious note, I enjoy trying out recipes and documenting my successes and failures on [Flickr](https://www.flickr.com/photos/139043990@N02/albums) (though I am not into photography aspect of it). 
+On a less serious note, I enjoy trying out recipes and documenting my successes and failures on [**Flickr**](https://www.flickr.com/photos/139043990@N02/albums) (though I am not into photography aspect of it). 
 
 Feel free to reach out or [**connect**](/#contact) with me! 
