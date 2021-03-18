@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: Publications
+title: 
 subtitle: ''
 
 content:
@@ -23,7 +23,7 @@ content:
   order: desc
   # Filter on criteria
   filters:
-    tag: ''
+    tag: 'Research'
     category: ''
     publication_type: ''
     author: ''

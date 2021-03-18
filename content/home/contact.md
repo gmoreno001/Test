@@ -7,10 +7,10 @@ widget: contact
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 100
 
-title: Contact
-subtitle:
+title: Hi there!
+subtitle: Drop me a message or connect with me
 
 content:
   # Automatically link email and phone or display as text?

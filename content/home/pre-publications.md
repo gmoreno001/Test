@@ -6,15 +6,15 @@
 widget: blank  
 headless: true  # This file represents a page section.
 active: true # Activate this widget? true/false
-weight: 60  # Order that this section will appear.
+weight: 40 # Order that this section will appear.
 
-title: Selected Projects
+title: Selected Publications
 subtitle:
 
 design:
   columns: 1
   background:
-    image: gina_image2.jpg
+    image: gina_image4.jpg
     image_darken: 0.1
     image_parallax: true
     image_position: center
@@ -24,5 +24,5 @@ design:
     padding: ["30px", "0", "30px", "0"]
     
 advanced:
-  css_style: "text-align: center" 
+  css_style: "text-align: center"
 ---
