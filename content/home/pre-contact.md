@@ -19,7 +19,7 @@ design:
     image_parallax: true
     image_position: center
     image_size: cover
-    text_color_light: true
+    text_color_light: false
   spacing:
     padding: ["30px", "0", "30px", "0"]
     
