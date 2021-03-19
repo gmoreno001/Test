@@ -34,4 +34,8 @@ links:
   icon_pack: fas
   name: "PDF"
   url: "media/Policy_Advocacy_Final.pdf"
+- icon: file-powerpoint
+  icon_pack: fas
+  name: " Slides"
+  url: "media/Policy_Advocacy_Term Project_Slides.pdf"
 ---

@@ -24,5 +24,9 @@ tags:
 - Coursework
 
 title: Cruel and Unusual. Exploring the Role of Context in County-level Disparities in Death Penalty Usage
-url_pdf: "media/Gina_MA Thesis_Dec 2016.pdf"
+links:
+- icon: file-pdf
+  icon_pack: fas
+  name: "PDF"
+  url: "media/Gina_MA Thesis_Dec 2016.pdf"
 ---
