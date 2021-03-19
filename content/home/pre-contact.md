@@ -8,8 +8,8 @@ headless: true  # This file represents a page section.
 active: true # Activate this widget? true/false
 weight: 90  # Order that this section will appear.
 
-title: Contact
-subtitle:
+title: Drop me a message below
+subtitle: 
 
 design:
   columns: 1

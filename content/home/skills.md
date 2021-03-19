@@ -21,7 +21,7 @@ subtitle:
 feature:
 
 - description: Data sets I have worked with include local, state, federal government agency data, Open Portal data, courts data, hospital admissions data
-  icon: broom
+  icon: wrench
   icon_pack: fas
   name: Wrangling
   
