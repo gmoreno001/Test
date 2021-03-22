@@ -29,4 +29,8 @@ links:
   icon_pack: fas
   name: "PDF"
   url: "media/Gina_MA Thesis_Dec 2016.pdf"
+- icon: file-code
+  icon_pack: fas
+  name: "Code"
+  url: "https://github.com/gmoreno001/Death-Penalty-Thesis-Project"
 ---
