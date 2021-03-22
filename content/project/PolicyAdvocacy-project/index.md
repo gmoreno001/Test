@@ -10,4 +10,4 @@ tags:
 title: Tow Policy Advocacy Fellowship at the Drug Policy Alliance
 ---
 
-As a Tow Policy Advocacy Fellow at Drug Policy Alliance (DPA), I worked on New York drug policy reform campaigns,  conducted regular outreach to constituents, developed informational materials, participated in coalition and legislative meetings, and tracked related media. 
+The Tow Policy Advocacy Fellowship prepares graduate students to be skilled policy advocates for social justice. The fellowship places students in policy advocacy organizations and provides academic coursework to support and enrich the internships. Tow Fellows will have the opportunity to practice the skills of policy advocacy, gaining firsthand experience in the field with the attendant challenges and rewards along the way. 
