@@ -11,7 +11,7 @@ title = "Gina Moreno"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://ginam.netlify.app/"
+baseurl = "https://gina-m.rbind.io/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
