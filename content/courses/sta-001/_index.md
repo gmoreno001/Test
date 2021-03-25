@@ -4,7 +4,7 @@ draft: false
 lastmod: "2018-09-09T00:00:00Z"
 linktitle: Software for Data Analysis
 menu:
-  sta-9750:
+  sta-001:
     name: Software for Data Analysis
     weight: 1
 summary: Part of M.S. in Statistics Program

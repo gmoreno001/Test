@@ -1,15 +1,17 @@
 ---
 date: "2016-12-01T00:00:00Z"
 draft: false
-lastmod: "2020-01-01T00:00:00Z"
+lastmod: "2016-12-01T00:00:00Z"
 linktitle: Criminal Justice Thesis Prospectus
 menu:
-  crj-791:
+  crj-002:
     name: Criminal Justice Thesis Prospectus
     weight: 1
 summary: Part of M.A. in Criminal Justice Program
 title: Criminal Justice Thesis Prospectus
 weight: 1
+tags:
+- Research
 ---
 
 ### *Cruel and Unusual. Exploring the Role of Context in County-level Disparities in Death Penalty Usage*

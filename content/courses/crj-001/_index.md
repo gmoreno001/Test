@@ -1,7 +1,7 @@
 ---
-date: "2018-09-09T00:00:00Z"
+date: "2016-05-01T00:00:00Z"
 draft: false
-lastmod: "2018-09-09T00:00:00Z"
+lastmod: "2016-05-01T00:00:00Z"
 linktitle: Policy Analysis in Criminal Justice
 menu:
   crj-730:
@@ -11,7 +11,7 @@ summary: Part of M.A. in Criminal Justice Program
 title: Policy Analysis in Criminal Justice
 weight: 1
 tags:
-- Research
+- Research and evaluation
 ---
 
 ### *The Addiction Institute At Mt. Sinai. An Evaluation Study of Single Session Therapy with Dr. Kimora*
