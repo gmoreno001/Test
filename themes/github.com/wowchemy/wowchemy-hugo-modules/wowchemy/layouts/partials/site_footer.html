@@ -13,7 +13,10 @@
 
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
-    "&copy"  Images: Akutan, Alaska
+  </p>
+  
+  <p class="powered-by">
+    &copy Images: Akutan, Alaska
   </p>
   
   {{/* Display copyright license. */}}
