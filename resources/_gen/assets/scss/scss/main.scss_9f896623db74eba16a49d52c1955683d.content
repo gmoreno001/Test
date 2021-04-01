@@ -7164,7 +7164,7 @@ body {
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
-  background-color: #F0F7FA;
+  background-color: #FFFFFF;
   padding-top: 0;
   counter-reset: captions;
   overflow-x: hidden;
@@ -7405,7 +7405,7 @@ small,
  *  Modals.
  **************************************************/
 .modal-content {
-  background: #F0F7FA; }
+  background: #FFFFFF; }
 
 .modal-title {
   margin: 0;
@@ -8059,7 +8059,7 @@ a.summary-link {
 .search-results {
   transform: scale(0);
   -webkit-transform: scale(0);
-  background-color: #F0F7FA;
+  background-color: #FFFFFF;
   bottom: 0;
   left: 0;
   right: 0;
@@ -8098,7 +8098,7 @@ a.summary-link {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #F0F7FA;
+  background-color: #FFFFFF;
   padding-top: 2rem;
   padding-bottom: 1rem; }
 
