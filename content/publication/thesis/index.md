@@ -8,7 +8,7 @@ date: "2016-12-01T00:00:00Z"
 featured: false
 
 image:
-  caption: 'Image credit: **Collage**'
+  caption: 'Image credit: **Shutterstock**'
   focal_point: ""
   preview_only: false
 
