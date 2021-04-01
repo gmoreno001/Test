@@ -10,4 +10,6 @@ tags:
 title: Evaluation of the Osborne Association's Prepare Program
 ---
 
-Supported with funding from the federal Department of Health & Human Services (HHS), the Osborne Association of New York City launched ReFORM, an initiative designed to support fathers and father figures returning to their families after a period of incarceration. The Osborne Association selected the John Jay REC to conduct a five-year evaluation of the program in New York.
+In partnership with the Osborne Association, the research team at JohnJayREC conducted an outcome evaluation of the Prepare program which strives to improve relationships between formerly incarcerated fathers and their children. 
+
+The study used administrative and survey data to measure Prepare's ability to help participants reconnect with their families and obtain employment. Data collected from interviews, focus groups, and program observations contextualized findings and led to recommendations on ways to improve or modify the program. 
