@@ -7,9 +7,7 @@ authors:
 - admin
 
 date: "2019-12-13T00:00:00Z"
-
 doi: ""
-
 featured: false
 
 image:
@@ -23,7 +21,7 @@ projects:
 publication_types:
 - "4"
 
-publishDate: "2019-05-10T00:00:00Z"
+publishDate: "2019-12-13T00:00:00Z"
 
 summary: MAP Update 4
 

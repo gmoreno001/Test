@@ -18,14 +18,11 @@ image:
   
 projects:
 - MAP-project
-
 publication_types:
 - "4"
 
 publishDate: "2020-10-29T00:00:00Z"
-
 summary: MAP Update 6
-
 tags:
 - Research and evaluation
 title: Opinions And Perceptions Of Residents In New York City Public Housing. More Findings From Household Surveys In Map Communities And Non-Map Communities

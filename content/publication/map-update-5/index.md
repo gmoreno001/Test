@@ -19,14 +19,10 @@ image:
 
 projects:
 - MAP-project
-
 publication_types:
 - "4"
-
 publishDate: "2020-06-25T00:00:00Z"
-
 summary: MAP Update 5
-
 tags:
 - Research and evaluation
 

@@ -20,7 +20,7 @@ publication: ""
 publication_short: ""
 publication_types:
 - "4"
-publishDate: "2016-06-01T00:00:00Z"
+publishDate: "2016-06-12T00:00:00Z"
 summary: This report assesses the first four months of New York’s medical marijuana program and finds that patients and caregivers face significant barriers to accessing medicine.
 tags:
 - Drug policy reform
