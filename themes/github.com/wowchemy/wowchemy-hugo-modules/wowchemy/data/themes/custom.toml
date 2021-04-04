@@ -8,10 +8,10 @@ light = true
 primary = "#4682B4"
 
 # Menu
-menu_primary = "#FEFFFF" 
-menu_text = "#1F2833"
-menu_text_active = "#4682B4" 
-menu_title = "#4682B4"  
+menu_primary = "#2D3645" #background of nav bar
+menu_text = "#FAFAFB"
+menu_text_active = "#FAFAFB" 
+menu_title = "#FAFAFB"  
 
 # Home sections
 background = "rgb(255, 255, 255)" # page background
