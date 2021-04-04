@@ -20,7 +20,7 @@ content:
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
-  order: desc
+  order: asc
   # Filter on criteria
   filters:
     tag: 'Research'
@@ -38,5 +38,5 @@ design:
 ---
 
 {{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
+[Click here](./publication/) for a full list of publications to filter from.
 {{% /callout %}}

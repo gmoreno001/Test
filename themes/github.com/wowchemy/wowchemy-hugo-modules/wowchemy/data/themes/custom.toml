@@ -5,7 +5,12 @@ name = "Custom"
 light = true
 
 # Primary
-primary = "#4682B4"
+#primary = "#4682B4"
+primary = "#575E6A"
+
+# Links
+#link = "#999999"
+#link_hover = "#173248"
 
 # Menu
 menu_primary = "#2D3645" #background of nav bar
