@@ -7749,7 +7749,7 @@ footer .powered-by {
  *  Navigation bar
  **************************************************/
 .navbar {
-  height: 70px;
+  height: 90px;
   background: #2D3645;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
   font-size: 16.17px;
@@ -8513,7 +8513,7 @@ ul.share li:hover i {
 .home-section {
   background: white;
   position: relative;
-  padding: 110px 0 110px 0;
+  padding: 30px 0 30px 0;
   z-index: 0; }
 
 .home-section.fullscreen {
@@ -9330,3 +9330,7 @@ html[dir="rtl"] body {
 nav#navbar-main li.nav-item {
   font-size: 20px;
   font-weight: 180; }
+
+/* test */
+.home-section {
+  padding: 30px 0 30px 0; }
