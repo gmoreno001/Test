@@ -30,7 +30,8 @@ highlight_name: true
 interests:
 - Justice program evaluation
 - Drug policy reform 
-- Quantitative research methods
+- Statistics, Causal inference, Data science
+- Data visualization
 
 organizations:
 - name: John Jay College Research and Evaluation Center
@@ -59,6 +60,6 @@ social:
 highlight_name: true  
 ---
 
-I am currently a [**Senior Research Analyst**](https://johnjayrec.nyc/people/) at the [**Research and Evaluation Center at John Jay College**](https://johnjayrec.nyc/), where I work on [**projects**](/#projects) examining, measuring and evaluating the impact of various innovations in justice policy and practice. Over the years, my college fellowships and academic career have shaped my research interests which lie at the intersection of justice policy reform and data analysis. Having recently graduated in 2020, I am not in school at the moment but am a forever learner.
+I am currently a [**Senior Research Analyst**](https://johnjayrec.nyc/people/) at the [**Research and Evaluation Center at John Jay College**](https://johnjayrec.nyc/), where I work on [**projects**](/#projects) examining, measuring and evaluating the impact of various innovations in justice policy and practice. Over the years, my college fellowships and academic career have shaped my research interests which lie at the intersection of justice policy reform and data analysis. Having recently graduated in 2020, I am not in school at the moment but am a forever [**learner**](/courses).
 
-On a less serious note, I enjoy trying out recipes and documenting my successes and failures on [**Flickr**](https://www.flickr.com/photos/139043990@N02/albums) (though I am not into photography aspect of it). Feel free to reach out or [**connect**](/#contact) with me! 
+On a less serious note, I enjoy trying out recipes and documenting my successes and failures on [**Flickr**](https://www.flickr.com/photos/139043990@N02/albums) (though I am not into photography aspect of it). Feel free to [**get in touch**](/#contact) or **connect** with me! 
