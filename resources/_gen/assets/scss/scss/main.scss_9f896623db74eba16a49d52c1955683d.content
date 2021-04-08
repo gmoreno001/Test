@@ -7750,7 +7750,7 @@ footer .powered-by {
  *  Navigation bar
  **************************************************/
 .navbar {
-  height: 90px;
+  height: 80px;
   background: #2D3645;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
   font-size: 16.17px;
@@ -7922,7 +7922,7 @@ ul.nav-icons li.nav-item a.nav-link {
 
 /*----NAV LINK HOVER ANIMATION -----*/
 .nav-link:hover {
-  color: black !important; }
+  color: #FAFAFB !important; }
 
 /* stroke */
 a.nav-link,
