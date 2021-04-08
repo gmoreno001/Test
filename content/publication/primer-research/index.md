@@ -13,6 +13,9 @@ image:
   focal_point: ""
   preview_only: false
 
+projects:
+- PolicyAdvocacy-project
+
 publication: In [*Department of Research and Academic Engagement*](https://drugpolicy.org/about-us/departments-and-state-offices/research-academic-engagement)
 
 publication_types:

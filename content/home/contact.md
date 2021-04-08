@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 100
 
-title: 'Send me a note <i class="fas fa-feather-alt"></i>'
+title: 'Connect with me <i class="far fa-comments"></i>'
 subtitle: 
 
 content:
