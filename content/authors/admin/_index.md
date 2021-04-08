@@ -13,13 +13,13 @@ bio: My research interests include criminal justice program evaluation, drug pol
 
 education:
   courses:
-  - course: Master of Science in Statistics
+  - course: M.S. in Statistics
     institution: Baruch College, City University of New York (CUNY) 
     year: 2019
-  - course: Master of Arts in Criminal Justice
+  - course: M.A. in Criminal Justice
     institution: John Jay College, CUNY
     year: 2016
-  - course: Bachelor of Arts in Criminal Justice
+  - course: B.A. in Criminal Justice
     institution: John Jay College, CUNY
     year: 2016
 
