@@ -7720,7 +7720,8 @@ footer p {
   text-align: center; }
 
 footer .powered-by {
-  font-size: 0.67rem; }
+  font-size: 0.67rem;
+  height: 12px; }
 
 .site-footer {
   color: rgba(0, 0, 0, 0.54); }
@@ -7735,7 +7736,7 @@ footer .powered-by {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  height: auto;
+  height: 10px;
   width: auto;
   text-decoration: none; }
 
@@ -9329,8 +9330,7 @@ html[dir="rtl"] body {
 .dropdown-menu,
 nav#navbar-main li.nav-item {
   font-size: 20px;
-  font-weight: 180; }
+  font-weight: 160; }
 
-/* test */
-.home-section {
-  padding: 30px 0 30px 0; }
+.container {
+  max-width: 90%; }
