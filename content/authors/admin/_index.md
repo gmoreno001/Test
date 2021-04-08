@@ -31,8 +31,6 @@ interests:
 - Justice program evaluation
 - Drug policy reform 
 - Quantitative research methods
-- Causal inference
-- Data visualization
 
 organizations:
 - name: John Jay College Research and Evaluation Center
