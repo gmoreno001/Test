@@ -20,7 +20,7 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 
-- description: Data sets I have worked with include local, state, federal government agency data, Open Portal data, courts data, hospital admissions data
+- description: I have worked with local, state and federal government agency data, Open Portal data, courts data, hospital admissions data
   icon: wrench
   icon_pack: fas
   name: Wrangling
