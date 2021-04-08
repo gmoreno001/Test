@@ -9331,6 +9331,3 @@ html[dir="rtl"] body {
 nav#navbar-main li.nav-item {
   font-size: 20px;
   font-weight: 160; }
-
-.container {
-  max-width: 90%; }
