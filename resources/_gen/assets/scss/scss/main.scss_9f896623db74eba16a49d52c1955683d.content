@@ -7724,7 +7724,9 @@ footer .powered-by {
   height: 12px; }
 
 .site-footer {
-  color: rgba(0, 0, 0, 0.88); }
+  color: rgba(0, 0, 0, 0.88);
+  position: relative;
+  top: -30px; }
 
 .dark .site-footer,
 .dark .docs .body-footer {
