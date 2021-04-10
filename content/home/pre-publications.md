@@ -10,13 +10,13 @@ headless: true  # This file represents a page section.
 active: true # Activate this widget? true/false
 weight: 40 # Order that this section will appear.
 
-title: Publications
+title: 
 subtitle:
 
 design:
   columns: 1
   background:
-    image: gina_image2.jpg
+    image: gina_imagea.png
     image_darken: 0.1
     image_parallax: true
     image_position: center
