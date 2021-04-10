@@ -16,7 +16,7 @@ footer .powered-by {
 }
 
 .site-footer {
-  color: rgba(0,0,0,0.54);
+  color: rgba(0,0,0,0.88);
 }
 
 // Dark footer theme
@@ -26,15 +26,15 @@ footer .powered-by {
 }
 
 // Footer copyright license
-
 .footer-license-icons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  height: 10px;
+  height: auto;
   width: auto;
+  font-size: 0;  
   text-decoration: none;
 }
 

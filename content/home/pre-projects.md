@@ -9,7 +9,7 @@ active: true # Activate this widget? true/false
 weight: 60  # Order that this section will appear.
 
 title: Projects
-subtitle: Selected Projects
+subtitle: 
 
 design:
   columns: 1
@@ -19,9 +19,9 @@ design:
     image_parallax: true
     image_position: center
     image_size: cover
-    text_color_light: true
+    text_color_light: false
   spacing:
-    padding: ["30px", "0", "30px", "0"]
+    padding: ["20px", "0", "20px", "0"]
     
 advanced:
   css_style: "text-align: center" 
