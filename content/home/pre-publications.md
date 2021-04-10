@@ -14,7 +14,7 @@ subtitle:
 design:
   columns: 1
   background:
-    image: gina_image4.jpg
+    image: gina_image2.jpg
     image_darken: 0.1
     image_parallax: true
     image_position: center
