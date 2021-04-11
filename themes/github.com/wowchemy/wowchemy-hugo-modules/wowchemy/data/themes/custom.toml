@@ -5,8 +5,7 @@ name = "Custom"
 light = true
 
 # Primary
-#primary = "#596E79"
-primary = "#483D41"
+primary = "575E6A"
 
 
 # Links
