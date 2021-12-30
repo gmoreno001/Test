@@ -19,14 +19,19 @@
   weight = 30
   
 [[main]]
+  name = "POSTS"
+  url = "#post"
+  weight = 40  
+  
+[[main]]
   name = "COURSEWORK"
   url = "courses/"
-  weight = 40
+  weight = 50
 
 [[main]]
   name = "CONTACT"
   url = "#contact"
-  weight = 50
+  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/resume.pdf` and uncomment the lines below.
@@ -34,4 +39,4 @@
 [[main]]
   name = "CV"
   url = "media/cv.pdf"
-  weight = 60
+  weight = 70

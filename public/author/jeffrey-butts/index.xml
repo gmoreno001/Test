@@ -2,27 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jeffrey Butts | Gina Moreno</title>
-    <link>/author/jeffrey-butts/</link>
-      <atom:link href="/author/jeffrey-butts/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gina-m.rbind.io/author/jeffrey-butts/</link>
+      <atom:link href="https://gina-m.rbind.io/author/jeffrey-butts/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeffrey Butts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Gina Moreno, 2021</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>media/icon.png</url>
+      <url>https://gina-m.rbind.io/media/icon.png</url>
       <title>Jeffrey Butts</title>
-      <link>/author/jeffrey-butts/</link>
+      <link>https://gina-m.rbind.io/author/jeffrey-butts/</link>
     </image>
     
     <item>
       <title>Easily Overstated. Estimating the Relationship Between State Justice Policy Environments and Falling Rates of Youth Confinement</title>
-      <link>/publication/ojjdp-youth-confinemnet/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/ojjdp-youth-confinemnet/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <link>https://gina-m.rbind.io/publication/ojjdp-youth-confinemnet/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/publication/ojjdp-youth-confinemnet/</guid>
+      <description></description>
     </item>
     
   </channel>

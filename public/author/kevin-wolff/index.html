@@ -37,7 +37,7 @@
   <meta name="description" content="Senior Research Analyst">
 
   
-  <link rel="alternate" hreflang="en-us" href="/author/kevin-wolff/">
+  <link rel="alternate" hreflang="en-us" href="https://gina-m.rbind.io/author/kevin-wolff/">
 
   
 
@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#4682B4">
+  <meta name="theme-color" content="#575E6A">
   
 
   
@@ -83,10 +83,8 @@
     
       
       
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/idea.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/idea.min.css" crossorigin="anonymous" title="hl-dark" disabled>
       
     
 
@@ -230,7 +228,7 @@
     
       
       
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan:400,600%7CNunito:400,700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700%7CRoboto+Mono%7CRoboto:400,700%7CNunito:400,700%7COpen+Sans:300,400&display=swap">
     
   
 
@@ -238,11 +236,49 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.min.5dc2ccba65215214711286dfb9790831.css">
+  <link rel="stylesheet" href="/css/wowchemy.min.283606ce9743ea410a7f2dac8c757221.css">
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-193674376-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-193674376-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -258,10 +294,10 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu06c0e670dc880a8c9fa2c1da764504be_5605_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu06c0e670dc880a8c9fa2c1da764504be_5605_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu3a90be662157d44c53f8a2c457498dd4_120326_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu3a90be662157d44c53f8a2c457498dd4_120326_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/author/kevin-wolff/">
+  <link rel="canonical" href="https://gina-m.rbind.io/author/kevin-wolff/">
 
   
   
@@ -279,12 +315,12 @@
   <meta property="twitter:creator" content="@GinaMoreno__">
   
   <meta property="og:site_name" content="Gina Moreno">
-  <meta property="og:url" content="/author/kevin-wolff/">
+  <meta property="og:url" content="https://gina-m.rbind.io/author/kevin-wolff/">
   <meta property="og:title" content="Kevin Wolff | Gina Moreno">
-  <meta property="og:description" content="Senior Research Analyst"><meta property="og:image" content="media/icon.png">
-  <meta property="twitter:image" content="media/icon.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Senior Research Analyst"><meta property="og:image" content="https://gina-m.rbind.io/media/icon.png">
+  <meta property="twitter:image" content="https://gina-m.rbind.io/media/icon.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-01-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2017-01-01T00:00:00&#43;00:00">
   
 
   
@@ -306,7 +342,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper dark ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
 
   
   
@@ -368,8 +404,8 @@
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Menu">
+    <span><i class="fas fa-bars"></i></span> MENU
     </button>
     
 
@@ -441,17 +477,10 @@
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>PROJECTS</span></a>
+          <a class="nav-link " href="/publication"><span>PUBLICATIONS</span></a>
         </li>
 
         
@@ -488,7 +517,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>PUBLICATIONS</span></a>
+          <a class="nav-link " href="/#projects"><span>PROJECTS</span></a>
         </li>
 
         
@@ -613,23 +642,6 @@
 
       
       
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
 
       
 
@@ -679,30 +691,67 @@
     
     <div class="container">
       <footer class="site-footer">
+  <p class="powered-by">
+    © Gina Moreno, 2021
+  </p>
+  
+  
   
 
-  <p class="powered-by">
+
+
+
+
+  
+  
+  
+  
+
+  
+  
     
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
   </p>
 
-  
-  
-
-
-
 
 
 
   <p class="powered-by">
+    Made with </a><a href="https://github.com/gmoreno001" target="_blank" rel="noopener">dedication</a> and <a href="https://github.com/gmoreno001" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a> using the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package. Powered by the <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
     
     
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
     
-    Published with
-    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
-    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
-    open source</a> website builder that empowers creators.
-    
-  </p>
+
 </footer>
 
     </div>

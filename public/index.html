@@ -37,7 +37,7 @@
   <meta name="description" content="Senior Research Analyst">
 
   
-  <link rel="alternate" hreflang="en-us" href="/">
+  <link rel="alternate" hreflang="en-us" href="https://gina-m.rbind.io/">
 
   
 
@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#4682B4">
+  <meta name="theme-color" content="#575E6A">
   
 
   
@@ -83,10 +83,8 @@
     
       
       
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/idea.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/idea.min.css" crossorigin="anonymous" title="hl-dark" disabled>
       
     
 
@@ -230,7 +228,7 @@
     
       
       
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan:400,600%7CNunito:400,700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700%7CRoboto+Mono%7CRoboto:400,700%7CNunito:400,700%7COpen+Sans:300,400&display=swap">
     
   
 
@@ -238,11 +236,49 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.min.5dc2ccba65215214711286dfb9790831.css">
+  <link rel="stylesheet" href="/css/wowchemy.min.283606ce9743ea410a7f2dac8c757221.css">
 
   
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-193674376-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-193674376-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -260,10 +296,10 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu06c0e670dc880a8c9fa2c1da764504be_5605_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu06c0e670dc880a8c9fa2c1da764504be_5605_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu3a90be662157d44c53f8a2c457498dd4_120326_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu3a90be662157d44c53f8a2c457498dd4_120326_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="https://gina-m.rbind.io/">
 
   
   
@@ -281,10 +317,10 @@
   <meta property="twitter:creator" content="@GinaMoreno__">
   
   <meta property="og:site_name" content="Gina Moreno">
-  <meta property="og:url" content="/">
+  <meta property="og:url" content="https://gina-m.rbind.io/">
   <meta property="og:title" content="Gina Moreno">
-  <meta property="og:description" content="Senior Research Analyst"><meta property="og:image" content="media/icon.png">
-  <meta property="twitter:image" content="media/icon.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Senior Research Analyst"><meta property="og:image" content="https://gina-m.rbind.io/media/icon.png">
+  <meta property="twitter:image" content="https://gina-m.rbind.io/media/icon.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00">
   
@@ -297,10 +333,10 @@
   "@type": "WebSite",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "?q={search_term_string}",
+    "target": "https://gina-m.rbind.io/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   },
-  "url": ""
+  "url": "https://gina-m.rbind.io/"
 }
 </script>
 
@@ -322,7 +358,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper dark ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
 
   
   
@@ -384,8 +420,8 @@
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Menu">
+    <span><i class="fas fa-bars"></i></span> MENU
     </button>
     
 
@@ -457,17 +493,10 @@
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects" data-target="#projects"><span>PROJECTS</span></a>
+          <a class="nav-link " href="/publication"><span>PUBLICATIONS</span></a>
         </li>
 
         
@@ -504,7 +533,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications" data-target="#publications"><span>PUBLICATIONS</span></a>
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>PROJECTS</span></a>
         </li>
 
         
@@ -629,23 +658,6 @@
 
       
       
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
 
       
 
@@ -748,13 +760,13 @@
 
 
 
-<div class="row">
+<div class="row" style="flex-direction: row-reverse;">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
       
-      <img class="avatar avatar-circle" src="/author/gina-moreno/avatar_hud5b29400d60f9800245d03c84341d92d_30314_270x270_fill_q75_lanczos_center.jpg" alt="Gina Moreno">
+      <img class="avatar avatar-square" src="/author/gina-moreno/avatar_hud5c43b312ced06e992ca2a9e75f37bb6_370587_270x270_fill_lanczos_center_2.png" alt="Gina Moreno">
       
 
       <div class="portrait-title">
@@ -763,9 +775,9 @@
 
         
         <h3>
-          
+          <a href="https://johnjayrec.nyc/" target="_blank" rel="noopener">
           <span>John Jay College Research and Evaluation Center</span>
-          
+          </a>
         </h3>
         
       </div>
@@ -784,8 +796,25 @@
           
         
         <li>
-          <a href="/#contact"  aria-label="envelope">
-            <i class="fas fa-envelope big-icon"></i>
+          <a href="https://github.com/gmoreno001" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.flickr.com/photos/139043990@N02/albums" target="_blank" rel="noopener" aria-label="flickr">
+            <i class="fab fa-flickr big-icon"></i>
           </a>
         </li>
         
@@ -835,23 +864,6 @@
           
         
         <li>
-          <a href="https://www.flickr.com/photos/139043990@N02/albums" target="_blank" rel="noopener" aria-label="flickr">
-            <i class="fab fa-flickr big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
           <a href="https://rpubs.com/GinaMoreno__" target="_blank" rel="noopener" aria-label="r-project">
             <i class="fab fa-r-project big-icon"></i>
           </a>
@@ -867,10 +879,8 @@
     <h1>Hello!</h1>
 
     <div class="article-style">
-      <p>I am currently a Senior Research Analyst at the <a href="https://johnjayrec.nyc/" target="_blank" rel="noopener">Research and Evaluation Center at John Jay College</a>, where I work on projects related to examining, measuring and evaluating the impact of various innovations in justice policy and practice.</p>
-<p>Having recently graduated in 2020, I am not in school at the moment but consider myself a forever learner. Over the years, my college fellowships and academic career have shaped my research interests which lie at the intersection of justice policy reform and data analysis.</p>
-<p>On a less serious note, I enjoy trying out recipes and documenting my successes and failures on <a href="https://www.flickr.com/photos/139043990@N02/albums" target="_blank" rel="noopener">Flickr</a> (though I am not into photography aspect of it).</p>
-<p>Feel free to reach out or connect with me!</p>
+      <p>I am currently a <a href="https://johnjayrec.nyc/people/" target="_blank" rel="noopener"><strong>Senior Research Analyst</strong></a> at the <a href="https://johnjayrec.nyc/" target="_blank" rel="noopener"><strong>Research and Evaluation Center at John Jay College</strong></a>, where I work on <a href="/#projects"><strong>projects</strong></a> examining, measuring and evaluating the impact of various innovations in justice policy and practice. Over the years, my college fellowships and academic career have shaped my research interests which lie at the intersection of justice policy reform and data analysis. Having recently graduated in 2020, I am not in school at the moment but am a forever <a href="/courses"><strong>learner</strong></a>.</p>
+<p>On a less serious note, I enjoy trying out recipes and documenting my successes and failures on <a href="https://www.flickr.com/photos/139043990@N02/albums" target="_blank" rel="noopener"><strong>Flickr</strong></a> (though I am not into photography aspect of it). Feel free to <a href="/#contact"><strong>get in touch</strong></a> or connect with me!</p>
 
     </div>
 
@@ -881,9 +891,9 @@
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Criminal justice program evaluation</li>
+          <li>Justice program evaluation</li>
           
-          <li>Drug policy reform and analysis</li>
+          <li>Drug policy reform</li>
           
           <li>Quantitative research methods</li>
           
@@ -899,7 +909,7 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">Master of Science in Statistics, 2019</p>
+              <p class="course">M.S. in Statistics, 2019</p>
               <p class="institution">Baruch College, City University of New York (CUNY)</p>
             </div>
           </li>
@@ -907,7 +917,7 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">Master of Arts in Criminal Justice, 2016</p>
+              <p class="course">M.A. in Criminal Justice, 2016</p>
               <p class="institution">John Jay College, CUNY</p>
             </div>
           </li>
@@ -915,7 +925,7 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">Bachelor of Arts in Criminal Justice, 2016</p>
+              <p class="course">B.A. in Criminal Justice, 2016</p>
               <p class="institution">John Jay College, CUNY</p>
             </div>
           </li>
@@ -1004,10 +1014,10 @@
   
   <div class="col-12 col-sm-4">
     
-    <div class="featurette-icon"><i class="fas fa-broom"></i></div>
+    <div class="featurette-icon"><i class="fas fa-wrench"></i></div>
     
     <h3>Wrangling</h3>
-    <p>Data sets I have worked with include local, state, federal government agency data, Open Portal data, courts data, hospital admissions data</p>
+    <p>Data sets I have worked with include local, state and federal government agency data, courts data, and hospital admissions data</p>
   </div>
   
   
@@ -1020,7 +1030,7 @@
     <div class="featurette-icon"><i class="fas fa-table"></i></div>
     
     <h3>Analysis</h3>
-    <p>Well-versed in multivariate, regression, and time series analysis, count data modeling. Fluent in Stata and R</p>
+    <p>Well-versed in multivariate regression, time series analysis, and count data modeling. Fluent in Stata and R (5+ years)</p>
   </div>
   
   
@@ -1039,6 +1049,96 @@
 </div>
 
 
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+    
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="pre-experiences" class="home-section wg-blank dark " style="padding: 20px 0 20px 0;text-align: center" >
+   <div class="home-section-bg  bg-image parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(&#39;https://gina-m.rbind.io/media/gina_imagea.png&#39;);background-size: cover;background-position: center;"></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    
+  </div>
+
+
+
+    
+      </div>
     
 
     </div>
@@ -1096,7 +1196,7 @@
       
         
           <div class="col-12 col-lg-4 section-heading">
-            <h1>Featured experiences</h1>
+            <h1>Featured Experiences</h1>
             
           </div>
         
@@ -1327,7 +1427,7 @@
       <div class="card">
         <div class="card-body">
           <h4 class="card-title exp-title text-muted mt-0 mb-1">John Jay Vera Fellow</h4>
-          <h4 class="card-title exp-company text-muted my-0"><a href="https://drugpolicy.org/" target="_blank" rel="noopener">Vera Institute of Justice</a></h4>
+          <h4 class="card-title exp-company text-muted my-0"><a href="https://www.vera.org/projects/college-in-prison/learn-more" target="_blank" rel="noopener">Vera Institute of Justice</a></h4>
           <div class="text-muted exp-meta">
             Sep 2014 –
             
@@ -1447,6 +1547,50 @@
   
 
   
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+    
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
 
   
 
@@ -1454,45 +1598,15 @@
   
 
   
-
-  
   
 
   
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="projects" class="home-section wg-portfolio  "  >
-   <div class="home-section-bg " ></div>
+  <section id="pre-publications" class="home-section wg-blank  " style="padding: 20px 0 20px 0;text-align: center" >
+   <div class="home-section-bg  bg-image parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(&#39;https://gina-m.rbind.io/media/gina_imagea.png&#39;);background-size: cover;background-position: center;"></div>
     <div class="container">
 
     
-      <div class="row  ">
-      
-        
-          <div class="col-12 col-lg-4 section-heading">
-            <h1>Projects</h1>
-            
-          </div>
-        
+      <div class="row  justify-content-center">
       
     
 
@@ -1500,166 +1614,10 @@
 
 
 
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-
-  <div class="isotope projects-container js-layout-masonry ">
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Research">
-  <div class="card">
-    
-    
-    
-    
-    <a href="https://johnjayrec.nyc/nij2017/" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/ojjdp-project/featured_hu4a91abfce09a458ac68f49601e857bf9_10972_fde6476a8fcebb4449713fc0663f13a8.jpg" data-src="/project/ojjdp-project/featured_hu4a91abfce09a458ac68f49601e857bf9_10972_550x0_resize_q75_lanczos.jpg" alt="Estimating causal relationships among youth justice policies and rates of juvenile confinement" class="img-responsive lazyload">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://johnjayrec.nyc/nij2017/" target="_blank" rel="noopener">Estimating causal relationships among youth justice policies and rates of juvenile confinement</a></h4>
-      
-      <div class="article-style">
-        <p>The research team measured characteristics of state-level juvenile justice policies and estimated their association with changes in juvenile crime and youth confinement. Originally funded by a grant from the Office of Juvenile Justice and Delinquency Prevention, the project was supervised by the National Institute of Justice within the Office of Justice Programs, U.S. Department of Justice (2017-JF-FX-0064). Click <a href="https://johnjayrec.nyc/nij2017/">here</a> to learn more.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Research">
-  <div class="card">
-    
-    
-    
-    
-    <a href="https://johnjayrec.nyc/osbornereform/" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/osborne-project/featured_hucb728fb2e5846c48cd4029f5dff9fdbd_38004_003c84a24c6637ca1b85395b71b0ec1c.jpg" data-src="/project/osborne-project/featured_hucb728fb2e5846c48cd4029f5dff9fdbd_38004_550x0_resize_q75_lanczos.jpg" alt="Evaluation of the Osborne Association’s ReFORM Program" class="img-responsive lazyload">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://johnjayrec.nyc/osbornereform/" target="_blank" rel="noopener">Evaluation of the Osborne Association’s ReFORM Program</a></h4>
-      
-      <div class="article-style">
-        <p>Supported with funding from the federal Department of Health &amp; Human Services (HHS), the Osborne Association of New York City launched ReFORM, an initiative designed to support fathers and father figures returning to their families after a period of incarceration. The Osborne Association selected the John Jay REC to conduct a five-year evaluation of the program in New York.  Click <a href="https://johnjayrec.nyc/osbornereform/">here</a> to learn more.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Research">
-  <div class="card">
-    
-    
-    
-    
-    <a href="https://johnjayrec.nyc/category/work-products-by-project/nyc-mayors-action-plan/" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/map-project/featured_hua485e59b5f92e390a62b9dcf58b06b3e_50787_6e222cfaea2708afa762e23758193fd5.jpeg" data-src="/project/map-project/featured_hua485e59b5f92e390a62b9dcf58b06b3e_50787_550x0_resize_q75_lanczos.jpeg" alt="Mayor&#39;s Action Plan (MAP) Outcome Evaluation" class="img-responsive lazyload">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://johnjayrec.nyc/category/work-products-by-project/nyc-mayors-action-plan/" target="_blank" rel="noopener">Mayor&rsquo;s Action Plan (MAP) Outcome Evaluation</a></h4>
-      
-      <div class="article-style">
-        <p>The outcome evaluation of MAP focused on understanding the effects of the initiative and identifying outcome differences between MAP communities and the matched set of comparison communities. Using administrative and survey data, researchers tested relationships between various efforts of MAP and key outcomes expected to result from those efforts. Results were released in earlier reports from this series of Evaluation Updates.  Click <a href="https://johnjayrec.nyc/category/work-products-by-project/nyc-mayors-action-plan/">here</a> to learn more.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-      
-
+  <div class="col-12 col-lg-8">
     
   </div>
-</div>
+
 
 
     
@@ -1779,7 +1737,7 @@
 
   <div class="alert alert-note">
   <div>
-    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
+    <a href="./publication/">Click here</a> for a full list of publications to filter from.
   </div>
 </div>
 
@@ -1956,14 +1914,8 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/https:/johnjayrec.nyc/wp-content/uploads/2020/10/MAP_EvalUpdate06.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -1997,8 +1949,24 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://johnjayrec.nyc/2020/10/29/mapupdate6/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://johnjayrec.nyc/wp-content/uploads/2020/10/MAP_EvalUpdate06.pdf" target="_blank" rel="noopener">
+    <i class="fas fa-file-pdf mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
     
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://johnjayrec.nyc/2020/10/29/mapupdate6/" target="_blank" rel="noopener">
+    <i class="fas fa-external-link-alt mr-1"></i>
     Online Report
   </a>
 
@@ -2086,14 +2054,8 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/https:/johnjayrec.nyc/wp-content/uploads/2020/06/MAP_EvalUpdate5.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -2127,8 +2089,24 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://johnjayrec.nyc/2020/06/25/mapupdate5/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://johnjayrec.nyc/wp-content/uploads/2020/06/MAP_EvalUpdate5.pdf" target="_blank" rel="noopener">
+    <i class="fas fa-file-pdf mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
     
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://johnjayrec.nyc/2020/06/25/mapupdate5/" target="_blank" rel="noopener">
+    <i class="fas fa-external-link-alt mr-1"></i>
     Online Report
   </a>
 
@@ -2145,286 +2123,6 @@
     
     <a href="/publication/map-update-5/" >
       <img src="/publication/map-update-5/featured_hu6f63754eda52ab0361f71aa8194caf97_107344_44d8bea46c1d4caeacb5ae99c8ee4307.jpg" data-src="/publication/map-update-5/featured_hu6f63754eda52ab0361f71aa8194caf97_107344_150x0_resize_q75_lanczos.jpg" alt="Reported Crime In Map Communities Compared With Other NYC Areas" class="lazyload">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/ojjdp-youth-confinemnet/" >Easily Overstated. Estimating the Relationship Between State Justice Policy Environments and Falling Rates of Youth Confinement</a>
-    </h3>
-
-    
-    <a href="/publication/ojjdp-youth-confinemnet/"  class="summary-link">
-      <div class="article-style">
-        To explore and assess associations between state-level policy reforms and juvenile justice system outcomes
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/douglas-evans/">Douglas Evans</a></span>, <span >
-      <a href="/author/jeffrey-butts/">Jeffrey Butts</a></span>, <span class="author-highlighted">
-      <a href="/author/gina-moreno/">Gina Moreno</a></span>, <span >
-      <a href="/author/kevin-wolff/">Kevin Wolff</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/https:/johnjayrec.nyc/wp-content/uploads/2020/01/EasilyOverstated2020-1.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/ojjdp-youth-confinemnet/cite.bib">
-  Cite
-</button>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/https:/www.icpsr.umich.edu/web/ICPSR/studies/37618" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/https:/www.icpsr.umich.edu/web/ICPSR/studies/37618" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/ojjdp-project/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://johnjayrec.nyc/2020/01/01/easilyoverstated2020/" target="_blank" rel="noopener">
-    
-    Online report
-  </a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a href="/publication/ojjdp-youth-confinemnet/" >
-      <img src="/publication/ojjdp-youth-confinemnet/featured_hu4a91abfce09a458ac68f49601e857bf9_10972_59ff833db457014cc3817c8e4d0c8676.jpg" data-src="/publication/ojjdp-youth-confinemnet/featured_hu4a91abfce09a458ac68f49601e857bf9_10972_150x0_resize_q75_lanczos.jpg" alt="Easily Overstated. Estimating the Relationship Between State Justice Policy Environments and Falling Rates of Youth Confinement" class="lazyload">
-    </a>
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/map-update-4/" >Opinions And Perceptions Of Residents In New York City Public Housing</a>
-    </h3>
-
-    
-    <a href="/publication/map-update-4/"  class="summary-link">
-      <div class="article-style">
-        MAP Update 4
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/sheyla-delgado/">Sheyla Delgado</a></span>, <span >
-      <a href="/author/jeffrey-a.-butts/">Jeffrey A. Butts</a></span>, <span class="author-highlighted">
-      <a href="/author/gina-moreno/">Gina Moreno</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/https:/johnjayrec.nyc/wp-content/uploads/2019/12/MAP_EvalUpdate04.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/map-project/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://johnjayrec.nyc/2019/12/13/mapupdate4/" target="_blank" rel="noopener">
-    
-    Online Report
-  </a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a href="/publication/map-update-4/" >
-      <img src="/publication/map-update-4/featured_hu66beb9649724eb506c3b3f1b0d0ca237_148002_7b60327f9a1462e28090f61bd1830ae3.jpg" data-src="/publication/map-update-4/featured_hu66beb9649724eb506c3b3f1b0d0ca237_148002_150x0_resize_q75_lanczos.jpg" alt="Opinions And Perceptions Of Residents In New York City Public Housing" class="lazyload">
     </a>
     
   </div>
@@ -2452,6 +2150,364 @@
     </div>
   
 
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+    
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="pre-projects" class="home-section wg-blank  " style="padding: 20px 0 20px 0;text-align: center" >
+   <div class="home-section-bg  bg-image parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(&#39;https://gina-m.rbind.io/media/gina_imageb.png&#39;);background-size: cover;background-position: center;"></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="projects" class="home-section wg-portfolio  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Selected Projects</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+
+  <div class="isotope projects-container js-layout-masonry ">
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Research">
+  <div class="card">
+    
+    
+    
+    
+    <a href="/project/ojjdp-project/"  class="card-image hover-overlay">
+      <img src="/project/ojjdp-project/featured_hu4a91abfce09a458ac68f49601e857bf9_10972_fde6476a8fcebb4449713fc0663f13a8.jpg" data-src="/project/ojjdp-project/featured_hu4a91abfce09a458ac68f49601e857bf9_10972_550x0_resize_q75_lanczos.jpg" alt="Estimating causal relationships among youth justice policies and rates of juvenile confinement" class="img-responsive lazyload">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/ojjdp-project/" >Estimating causal relationships among youth justice policies and rates of juvenile confinement</a></h4>
+      
+      <div class="article-style">
+        <p>Click <a href="https://johnjayrec.nyc/nij2017/">here</a> to learn more.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Research">
+  <div class="card">
+    
+    
+    
+    
+    <a href="/project/osborne-project/"  class="card-image hover-overlay">
+      <img src="/project/osborne-project/featured_hucb728fb2e5846c48cd4029f5dff9fdbd_38004_003c84a24c6637ca1b85395b71b0ec1c.jpg" data-src="/project/osborne-project/featured_hucb728fb2e5846c48cd4029f5dff9fdbd_38004_550x0_resize_q75_lanczos.jpg" alt="Evaluation of the Osborne Association&#39;s Prepare Program" class="img-responsive lazyload">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/osborne-project/" >Evaluation of the Osborne Association&rsquo;s Prepare Program</a></h4>
+      
+      <div class="article-style">
+        <p>Click <a href="https://johnjayrec.nyc/osbornereform/">here</a> to learn more.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Research">
+  <div class="card">
+    
+    
+    
+    
+    <a href="/project/map-project/"  class="card-image hover-overlay">
+      <img src="/project/map-project/featured_hua485e59b5f92e390a62b9dcf58b06b3e_50787_6e222cfaea2708afa762e23758193fd5.jpeg" data-src="/project/map-project/featured_hua485e59b5f92e390a62b9dcf58b06b3e_50787_550x0_resize_q75_lanczos.jpeg" alt="Mayor&#39;s Action Plan (MAP) Outcome Evaluation" class="img-responsive lazyload">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/map-project/" >Mayor&rsquo;s Action Plan (MAP) Outcome Evaluation</a></h4>
+      
+      <div class="article-style">
+        <p>Click <a href="https://johnjayrec.nyc/category/work-products-by-project/nyc-mayors-action-plan/">here</a> to learn more.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Drug-policy-reform">
+  <div class="card">
+    
+    
+    
+    
+    <a href="/project/policyadvocacy-project/"  class="card-image hover-overlay">
+      <img src="/project/policyadvocacy-project/featured_huc60229b3545f5217e7ef85a16042e97a_51235_ef8fe38a35787368915c20dcc8e6d467.png" data-src="/project/policyadvocacy-project/featured_huc60229b3545f5217e7ef85a16042e97a_51235_550x0_resize_lanczos_2.png" alt="Tow Policy Advocacy Fellowship at the Drug Policy Alliance" class="img-responsive lazyload">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/policyadvocacy-project/" >Tow Policy Advocacy Fellowship at the Drug Policy Alliance</a></h4>
+      
+      <div class="article-style">
+        <p>Click <a href="https://justiceandopportunity.org/fellowships/tow/">here</a> to learn more.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+  </div>
 </div>
 
 
@@ -2556,32 +2612,117 @@
         
         
         
-        <a href="/tag/academic/" style="font-size:0.7rem">Academic</a>
+        <a href="/tag/coursework/" style="font-size:0.8rem">Coursework</a>
       
         
         
         
-        <a href="/tag/drug-policy-reform/" style="font-size:1.6261386864808576rem">Drug policy reform</a>
+        <a href="/tag/drug-policy-reform/" style="font-size:1.161470984411521rem">Drug policy reform</a>
       
         
         
         
-        <a href="/tag/research/" style="font-size:1.4339475442696534rem">Research</a>
+        <a href="/tag/research/" style="font-size:1.161470984411521rem">Research</a>
       
         
         
         
-        <a href="/tag/research-and-evaluation/" style="font-size:1.8970168875100824rem">Research and evaluation</a>
-      
-        
-        
-        
-        <a href="/tag/%E5%BC%80%E6%BA%90/" style="font-size:0.7rem">开源</a>
+        <a href="/tag/research-and-evaluation/" style="font-size:1.161470984411521rem">Research and evaluation</a>
       
     </div>
   
 
 </div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+      
+    
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+    
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="pre-contact" class="home-section wg-blank  " style="padding: 20px 0 20px 0;text-align: center" >
+   <div class="home-section-bg  bg-image parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(&#39;https://gina-m.rbind.io/media/gina_imagea.png&#39;);background-size: cover;background-position: center;"></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    
+  </div>
+
 
 
     
@@ -2643,7 +2784,7 @@
       
         
           <div class="col-12 col-lg-4 section-heading">
-            <h1>Contact</h1>
+            <h1>Connect with me <i class="far fa-comments"></i></h1>
             
           </div>
         
@@ -2674,11 +2815,10 @@
     
     
       
-      
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/f/test"  >
+      <form name="contact" method="POST" netlify netlify-honeypot="welcome-bot" data-netlify-recaptcha="true">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -2691,6 +2831,13 @@
           <label class="sr-only" for="inputMessage">Message</label>
           <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
         </div>
+        
+          <div class="d-none">
+            <label>Do not fill this field unless you are a bot: <input name="welcome-bot"></label>
+          </div>
+          
+            <div class="form-group" data-netlify-recaptcha="true"></div>
+          
         
         <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
       </form>
@@ -2732,7 +2879,7 @@
     
     <li>
       <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-      <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">DM Me</a>
+      <a href="https://twitter.com/GinaMoreno__" target="_blank" rel="noopener">Drop me a message</a>
     </li>
     
     
@@ -2747,8 +2894,8 @@
       
     
     <li>
-      <i class="fa-li fas fa-comments fa-2x" aria-hidden="true"></i>
-      <a href="https://discourse.gohugo.io" target="_blank" rel="noopener">Discuss on Forum</a>
+      <i class="fa-li far fa-keyboard fa-2x" aria-hidden="true"></i>
+      <a href="https://discourse.gohugo.io" target="_blank" rel="noopener">Discuss on forum</a>
     </li>
     
 
@@ -2775,30 +2922,67 @@
     
     <div class="container">
       <footer class="site-footer">
+  <p class="powered-by">
+    © Gina Moreno, 2021
+  </p>
+  
+  
   
 
-  <p class="powered-by">
+
+
+
+
+  
+  
+  
+  
+
+  
+  
     
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
   </p>
 
-  
-  
-
-
-
 
 
 
   <p class="powered-by">
+    Made with </a><a href="https://github.com/gmoreno001" target="_blank" rel="noopener">dedication</a> and <a href="https://github.com/gmoreno001" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a> using the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package. Powered by the <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
     
     
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
     
-    Published with
-    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
-    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
-    open source</a> website builder that empowers creators.
-    
-  </p>
+
 </footer>
 
     </div>

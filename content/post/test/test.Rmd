@@ -1,0 +1,53 @@
+---
+title: "test1"
+subtitle: "test test."
+summary: "test test test"
+date: 2021-12-30
+authors:
+ - admin
+slug: test
+#categories: ["Blogging"]
+#tags: ["Blogdown", "R", "Blogging", "Markdown", "R Markdown"]
+## For re-generating the md output from the original R code
+#output:
+#  bookdown::html_document2:
+#    keep_md: yes
+---
+
+The R package [blogdown](https://bookdown.org/yihui/blogdown/) has become a widely  popular solution to setting up personal blogs. However, one problem with blogdown This may be fine if you're just starting out with your site or if your posts generally don't contain any sophisticated R code, but in a long-standing blog you'll eventually run into trouble. First, re-knitting hundreds of posts may be quite slow. And second, if you've got a bunch of old posts chances are some will not knit anymore, and then you may have got a serious problem with no simple solution.
+
+This problem has been recognized for a while, and the proposed solution is usually to knit only on demand. See e.g. [here](https://yutani.rbind.io/post/2017-10-25-blogdown-custom/). The experimental [hugodown package](https://github.com/r-lib/hugodown) likewise aims to limit any unnecessary re-knitting. Here, I'm taking a different approach. My perspective is that I want to be able to re-knit any time without worrying that I'll destroy anything of value, and I also want to be able to add code and output to posts containing prior code that doesn't run anymore today.
+
+```{r echo = FALSE}
+knitr::opts_chunk$set(comment = "#")
+# comment out to regenerate plots, output, etc.
+knitr::opts_chunk$set(echo = FALSE, eval = FALSE)
+```
+
+### 1.
+
+Blah black 
+
+### 2. 
+
+Next I call in several `R` packages to help with the analysis:
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+dim(iris) #150 rows and 5 columns
+pairs(iris[,1:4], main = "Iris Data  (red=setosa,green=versicolor,blue=virginica)",
+      pch = 21, bg = c("red", "green3", "blue")[unclass(iris$Species)])
+library(e1071)
+library(class)
+classifier<-naiveBayes(iris[,1:4], iris[,5]) 
+table(predict(classifier, iris[,-5]), iris[,5])
+classifier<-naiveBayes(iris[,1:2], iris[,5]) 
+table(predict(classifier, iris[,-5]), iris[,5])
+library(caret)
+library(klaR)
+```
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coursework | Gina Moreno</title>
+    <link>https://gina-m.rbind.io/tag/coursework/</link>
+      <atom:link href="https://gina-m.rbind.io/tag/coursework/index.xml" rel="self" type="application/rss+xml" />
+    <description>Coursework</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Gina Moreno, 2021</copyright><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gina-m.rbind.io/media/icon.png</url>
+      <title>Coursework</title>
+      <link>https://gina-m.rbind.io/tag/coursework/</link>
+    </image>
+    
+    <item>
+      <title>Cruel and Unusual. Exploring the Role of Context in County-level Disparities in Death Penalty Usage</title>
+      <link>https://gina-m.rbind.io/publication/thesis/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compassionate Care New York Policy Advocacy Report</title>
+      <link>https://gina-m.rbind.io/publication/policy-advocacy/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/publication/policy-advocacy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

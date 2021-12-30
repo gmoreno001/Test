@@ -2,14 +2,14 @@
   "name": "Gina Moreno",
   "short_name": "Gina Moreno",
   "lang": "en-us",
-  "theme_color": "#4682B4",
-  "background_color": "#4682B4",
+  "theme_color": "#575E6A",
+  "background_color": "#575E6A",
   "icons": [{
-    "src": "/images/icon_hu06c0e670dc880a8c9fa2c1da764504be_5605_192x192_fill_lanczos_center_2.png",
+    "src": "/images/icon_hu3a90be662157d44c53f8a2c457498dd4_120326_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/images/icon_hu06c0e670dc880a8c9fa2c1da764504be_5605_512x512_fill_lanczos_center_2.png",
+    "src": "/images/icon_hu3a90be662157d44c53f8a2c457498dd4_120326_512x512_fill_lanczos_center_2.png",
     "sizes": "512x512",
     "type": "image/png"
      }],

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policy Analysis in Criminal Justice | Gina Moreno</title>
+    <link>https://gina-m.rbind.io/courses/crj-001/</link>
+      <atom:link href="https://gina-m.rbind.io/courses/crj-001/index.xml" rel="self" type="application/rss+xml" />
+    <description>Policy Analysis in Criminal Justice</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Gina Moreno, 2021</copyright><lastBuildDate>Sun, 01 May 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gina-m.rbind.io/media/icon.png</url>
+      <title>Policy Analysis in Criminal Justice</title>
+      <link>https://gina-m.rbind.io/courses/crj-001/</link>
+    </image>
+    
+  </channel>
+</rss>

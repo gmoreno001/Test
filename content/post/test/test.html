@@ -1,0 +1,29 @@
+---
+title: "test1"
+subtitle: "test test."
+summary: "test test test"
+date: 2021-12-30
+authors:
+ - admin
+slug: test
+#categories: ["Blogging"]
+#tags: ["Blogdown", "R", "Blogging", "Markdown", "R Markdown"]
+## For re-generating the md output from the original R code
+#output:
+#  bookdown::html_document2:
+#    keep_md: yes
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>The R package <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> has become a widely popular solution to setting up personal blogs. However, one problem with blogdown This may be fine if you’re just starting out with your site or if your posts generally don’t contain any sophisticated R code, but in a long-standing blog you’ll eventually run into trouble. First, re-knitting hundreds of posts may be quite slow. And second, if you’ve got a bunch of old posts chances are some will not knit anymore, and then you may have got a serious problem with no simple solution.</p>
+<p>This problem has been recognized for a while, and the proposed solution is usually to knit only on demand. See e.g. <a href="https://yutani.rbind.io/post/2017-10-25-blogdown-custom/">here</a>. The experimental <a href="https://github.com/r-lib/hugodown">hugodown package</a> likewise aims to limit any unnecessary re-knitting. Here, I’m taking a different approach. My perspective is that I want to be able to re-knit any time without worrying that I’ll destroy anything of value, and I also want to be able to add code and output to posts containing prior code that doesn’t run anymore today.</p>
+<div id="section" class="section level3">
+<h3>1.</h3>
+<p>Blah black</p>
+</div>
+<div id="section-1" class="section level3">
+<h3>2.</h3>
+<p>Next I call in several <code>R</code> packages to help with the analysis:</p>
+</div>

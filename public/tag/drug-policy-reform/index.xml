@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drug policy reform | Gina Moreno</title>
-    <link>/tag/drug-policy-reform/</link>
-      <atom:link href="/tag/drug-policy-reform/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gina-m.rbind.io/tag/drug-policy-reform/</link>
+      <atom:link href="https://gina-m.rbind.io/tag/drug-policy-reform/index.xml" rel="self" type="application/rss+xml" />
     <description>Drug policy reform</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Gina Moreno, 2021</copyright><lastBuildDate>Wed, 07 Sep 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>media/icon.png</url>
+      <url>https://gina-m.rbind.io/media/icon.png</url>
       <title>Drug policy reform</title>
-      <link>/tag/drug-policy-reform/</link>
+      <link>https://gina-m.rbind.io/tag/drug-policy-reform/</link>
     </image>
     
     <item>
       <title>Expand list of eligible conditions</title>
-      <link>/publication/op-ed-sept16/</link>
+      <link>https://gina-m.rbind.io/publication/op-ed-sept16/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/op-ed-sept16/</guid>
+      <guid>https://gina-m.rbind.io/publication/op-ed-sept16/</guid>
       <description>&lt;p&gt;Last week, Gov. &lt;a href=&#34;https://www.timesunion.com/search/?action=search&amp;amp;channel=tuplus-opinion&amp;amp;inlineLink=1&amp;amp;searchindex=solr&amp;amp;query=%22Andrew&amp;#43;Cuomo%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andrew Cuomo&lt;/a&gt; announced his office will sign off on recommendations in the state &lt;a href=&#34;https://www.timesunion.com/search/?action=search&amp;amp;channel=tuplus-opinion&amp;amp;inlineLink=1&amp;amp;searchindex=solr&amp;amp;query=%22Health&amp;#43;Department%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Health Department&lt;/a&gt;&amp;rsquo;s recent two-year report evaluating the rollout and status of New York&amp;rsquo;s medical marijuana program.&lt;/p&gt;
 &lt;p&gt;While it was encouraging to see the Health Department recommend a series of much-needed changes to improve the program, advocates were disappointed with the lengthy time frames and noncommittal language. Without immediate change, New York&amp;rsquo;s program continues to fail countless patients that could benefit from having access to medical marijuana.&lt;/p&gt;
 &lt;p&gt;The Health Department announced it will be undertaking a review of the evidence on the medical use of marijuana for chronic pain, with no guarantee that it will be included as a qualifying condition.&lt;/p&gt;
@@ -34,25 +34,43 @@
     
     <item>
       <title>Primer on Reading Research</title>
-      <link>/publication/primer-research/</link>
+      <link>https://gina-m.rbind.io/publication/primer-research/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/primer-research/</guid>
+      <guid>https://gina-m.rbind.io/publication/primer-research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assessing New York’s Medical Marijuana Program. Problems of Patient Access and Affordability</title>
-      <link>/publication/access-mmj/</link>
+      <link>https://gina-m.rbind.io/publication/access-mmj/</link>
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/access-mmj/</guid>
+      <guid>https://gina-m.rbind.io/publication/access-mmj/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Compassionate Care New York Policy Advocacy Report</title>
+      <link>https://gina-m.rbind.io/publication/policy-advocacy/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/publication/policy-advocacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tow Policy Advocacy Fellowship at the Drug Policy Alliance</title>
+      <link>https://gina-m.rbind.io/project/policyadvocacy-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/project/policyadvocacy-project/</guid>
+      <description>&lt;p&gt;The Tow Policy Advocacy Fellowship prepares graduate students to be skilled policy advocates for social justice. The fellowship places students in policy advocacy organizations and provides academic coursework to support and enrich the internships. Tow Fellows will have the opportunity to practice the skills of policy advocacy, gaining firsthand experience in the field with the attendant challenges and rewards along the way.&lt;/p&gt;
+&lt;p&gt;As a Tow Policy Advocacy Fellow at Drug Policy Alliance (DPA), I worked on New York&amp;rsquo;s drug policy reform campaigns by conducting regular outreach to constituents, developing informational materials and participating in coalition and legislative meetings. I also supported DPA&amp;rsquo;s inaugural Office of Academic Engagement, which connects researchers and policymakers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Ease access to medical marijuana</title>
-      <link>/publication/op-ed-feb16/</link>
+      <link>https://gina-m.rbind.io/publication/op-ed-feb16/</link>
       <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/op-ed-feb16/</guid>
+      <guid>https://gina-m.rbind.io/publication/op-ed-feb16/</guid>
       <description>&lt;p&gt;Last month marked the historic launch of New York&amp;rsquo;s medical marijuana program. Years of political wrangling and tireless advocacy have led up to this long-awaited moment when patients in New York will finally be able to legally purchase medical marijuana, including an unprecedented offering of kosher-certified medicine.&lt;/p&gt;
 &lt;p&gt;Producers have worked for five months to meet the ambitious deadline set by Gov. &lt;a href=&#34;https://www.timesunion.com/search/?action=search&amp;amp;channel=tuplus-opinion&amp;amp;inlineLink=1&amp;amp;searchindex=solr&amp;amp;query=%22Andrew&amp;#43;Cuomo%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andrew Cuomo&lt;/a&gt;, and the state has ensured that the implementation of the program follows the letter of the law.&lt;/p&gt;
 &lt;p&gt;But has it done enough to ensure patient access to compassionate medical care? What should be a momentous moment for patients, including those who have tirelessly advocated for the legalization of medical marijuana, is instead marked by more uncertainty and further delays.&lt;/p&gt;

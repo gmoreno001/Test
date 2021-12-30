@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gina Moreno</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gina-m.rbind.io/</link>
+      <atom:link href="https://gina-m.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Gina Moreno</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Gina Moreno, 2021</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>media/icon.png</url>
+      <url>https://gina-m.rbind.io/media/icon.png</url>
       <title>Gina Moreno</title>
-      <link>/</link>
+      <link>https://gina-m.rbind.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <link>https://gina-m.rbind.io/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://gina-m.rbind.io/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,54 +34,41 @@
     
     <item>
       <title>Returning Home. A Descriptive Evaluation of Prepare in New York City.</title>
-      <link>/publication/osborne-prepare/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/osborne-prepare/</guid>
+      <link>https://gina-m.rbind.io/publication/osborne-prepare/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/publication/osborne-prepare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Opinions And Perceptions Of Residents In New York City Public Housing. More Findings From Household Surveys In Map Communities And Non-Map Communities</title>
-      <link>/publication/map-update-6/</link>
+      <link>https://gina-m.rbind.io/publication/map-update-6/</link>
       <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/map-update-6/</guid>
+      <guid>https://gina-m.rbind.io/publication/map-update-6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reported Crime In Map Communities Compared With Other NYC Areas</title>
-      <link>/publication/map-update-5/</link>
+      <link>https://gina-m.rbind.io/publication/map-update-5/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/map-update-5/</guid>
+      <guid>https://gina-m.rbind.io/publication/map-update-5/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Easily Overstated. Estimating the Relationship Between State Justice Policy Environments and Falling Rates of Youth Confinement</title>
-      <link>/publication/ojjdp-youth-confinemnet/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/ojjdp-youth-confinemnet/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Opinions And Perceptions Of Residents In New York City Public Housing</title>
-      <link>/publication/map-update-4/</link>
+      <link>https://gina-m.rbind.io/publication/map-update-4/</link>
       <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/map-update-4/</guid>
+      <guid>https://gina-m.rbind.io/publication/map-update-4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
+      <link>https://gina-m.rbind.io/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
+      <guid>https://gina-m.rbind.io/post/writing-technical-content/</guid>
       <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
@@ -105,7 +92,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-495612873&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-734569182&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -115,7 +102,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-495612873&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-734569182&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -343,17 +330,17 @@ You found me!
     
     <item>
       <title>Public Safety Trends In Map Communities And Matched Comparison Areas</title>
-      <link>/publication/map-update-3/</link>
+      <link>https://gina-m.rbind.io/publication/map-update-3/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/map-update-3/</guid>
+      <guid>https://gina-m.rbind.io/publication/map-update-3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
+      <link>https://gina-m.rbind.io/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
+      <guid>https://gina-m.rbind.io/post/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -395,9 +382,9 @@ date: 2019-09-01
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://gina-m.rbind.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://gina-m.rbind.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -523,10 +510,26 @@ Three
     </item>
     
     <item>
+      <title>Easily Overstated. Estimating the Relationship Between State Justice Policy Environments and Falling Rates of Youth Confinement</title>
+      <link>https://gina-m.rbind.io/publication/ojjdp-youth-confinemnet/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/publication/ojjdp-youth-confinemnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cruel and Unusual. Exploring the Role of Context in County-level Disparities in Death Penalty Usage</title>
+      <link>https://gina-m.rbind.io/publication/thesis/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Expand list of eligible conditions</title>
-      <link>/publication/op-ed-sept16/</link>
+      <link>https://gina-m.rbind.io/publication/op-ed-sept16/</link>
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/op-ed-sept16/</guid>
+      <guid>https://gina-m.rbind.io/publication/op-ed-sept16/</guid>
       <description>&lt;p&gt;Last week, Gov. &lt;a href=&#34;https://www.timesunion.com/search/?action=search&amp;amp;channel=tuplus-opinion&amp;amp;inlineLink=1&amp;amp;searchindex=solr&amp;amp;query=%22Andrew&amp;#43;Cuomo%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andrew Cuomo&lt;/a&gt; announced his office will sign off on recommendations in the state &lt;a href=&#34;https://www.timesunion.com/search/?action=search&amp;amp;channel=tuplus-opinion&amp;amp;inlineLink=1&amp;amp;searchindex=solr&amp;amp;query=%22Health&amp;#43;Department%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Health Department&lt;/a&gt;&amp;rsquo;s recent two-year report evaluating the rollout and status of New York&amp;rsquo;s medical marijuana program.&lt;/p&gt;
 &lt;p&gt;While it was encouraging to see the Health Department recommend a series of much-needed changes to improve the program, advocates were disappointed with the lengthy time frames and noncommittal language. Without immediate change, New York&amp;rsquo;s program continues to fail countless patients that could benefit from having access to medical marijuana.&lt;/p&gt;
 &lt;p&gt;The Health Department announced it will be undertaking a review of the evidence on the medical use of marijuana for chronic pain, with no guarantee that it will be included as a qualifying condition.&lt;/p&gt;
@@ -544,143 +547,74 @@ Three
     
     <item>
       <title>Primer on Reading Research</title>
-      <link>/publication/primer-research/</link>
+      <link>https://gina-m.rbind.io/publication/primer-research/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/primer-research/</guid>
+      <guid>https://gina-m.rbind.io/publication/primer-research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assessing New York’s Medical Marijuana Program. Problems of Patient Access and Affordability</title>
-      <link>/publication/access-mmj/</link>
+      <link>https://gina-m.rbind.io/publication/access-mmj/</link>
       <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/access-mmj/</guid>
+      <guid>https://gina-m.rbind.io/publication/access-mmj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compassionate Care New York Policy Advocacy Report</title>
+      <link>https://gina-m.rbind.io/publication/policy-advocacy/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/publication/policy-advocacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Estimating causal relationships among youth justice policies and rates of juvenile confinement</title>
-      <link>/project/ojjdp-project/</link>
+      <link>https://gina-m.rbind.io/project/ojjdp-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/ojjdp-project/</guid>
-      <description></description>
+      <guid>https://gina-m.rbind.io/project/ojjdp-project/</guid>
+      <description>&lt;p&gt;For this project, the research team explored and estimated the relationship between state-level juvenile justice policy environments and trends in the confinement of adjudicated youth from 1997 to 2015.&lt;/p&gt;
+&lt;p&gt;The study found that states with more rehabilitative juvenile justice policies tended to have lower rates of confined juveniles but the nationwide decline in the population of confined youth over time was not related to how progressive a state&amp;rsquo;s policy environment was.&lt;/p&gt;
+&lt;p&gt;Originally funded by a grant from the Office of Juvenile Justice and Delinquency Prevention, the project was supervised by the National Institute of Justice within the Office of Justice Programs, U.S. Department of Justice (2017-JF-FX-0064).&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Evaluation of the Osborne Association’s ReFORM Program</title>
-      <link>/project/osborne-project/</link>
+      <title>Evaluation of the Osborne Association&#39;s Prepare Program</title>
+      <link>https://gina-m.rbind.io/project/osborne-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/osborne-project/</guid>
-      <description></description>
+      <guid>https://gina-m.rbind.io/project/osborne-project/</guid>
+      <description>&lt;p&gt;In partnership with the Osborne Association, the research team at JohnJayREC conducted an outcome evaluation of the Prepare program which strives to improve relationships between formerly incarcerated fathers and their children.&lt;/p&gt;
+&lt;p&gt;The study used administrative and survey data to measure Prepare&amp;rsquo;s ability to help participants reconnect with their families and obtain employment. Data collected from interviews, focus groups, and program observations contextualized findings and led to recommendations on ways to improve or modify the program.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Mayor&#39;s Action Plan (MAP) Outcome Evaluation</title>
-      <link>/project/map-project/</link>
+      <link>https://gina-m.rbind.io/project/map-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/map-project/</guid>
-      <description></description>
+      <guid>https://gina-m.rbind.io/project/map-project/</guid>
+      <description>&lt;p&gt;Launched in 2014, the Mayor&amp;rsquo;s Action Plan (MAP) for Neighborhood Safety is a comprehensive initiative focused on the safety and well-being of residents living in 15 public housing communities, operated by the New York City Housing Authority (NYCHA), which have been disproportionately affected by crime in recent years.&lt;/p&gt;
+&lt;p&gt;The outcome evaluation of MAP focused on understanding the effects of the initiative and identifying outcome differences between MAP communities and a matched set of comparison NYCHA communities. Using administrative and survey data, researchers at JohnJayREC tested relationships between various efforts of MAP and key outcomes expected to result from those efforts. Results were documented and shared in a series of &lt;a href=&#34;https://johnjayrec.nyc/category/work-products-by-project/nyc-mayors-action-plan/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Evaluation Update reports&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
-&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
-&lt;/ol&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; data-caption=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
-
-
-  &lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
-&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-admin/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to automatically import publications from BibTeX&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+      <title>Tow Policy Advocacy Fellowship at the Drug Policy Alliance</title>
+      <link>https://gina-m.rbind.io/project/policyadvocacy-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/project/policyadvocacy-project/</guid>
+      <description>&lt;p&gt;The Tow Policy Advocacy Fellowship prepares graduate students to be skilled policy advocates for social justice. The fellowship places students in policy advocacy organizations and provides academic coursework to support and enrich the internships. Tow Fellows will have the opportunity to practice the skills of policy advocacy, gaining firsthand experience in the field with the attendant challenges and rewards along the way.&lt;/p&gt;
+&lt;p&gt;As a Tow Policy Advocacy Fellow at Drug Policy Alliance (DPA), I worked on New York&amp;rsquo;s drug policy reform campaigns by conducting regular outreach to constituents, developing informational materials and participating in coalition and legislative meetings. I also supported DPA&amp;rsquo;s inaugural Office of Academic Engagement, which connects researchers and policymakers.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ease access to medical marijuana</title>
-      <link>/publication/op-ed-feb16/</link>
+      <link>https://gina-m.rbind.io/publication/op-ed-feb16/</link>
       <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/op-ed-feb16/</guid>
+      <guid>https://gina-m.rbind.io/publication/op-ed-feb16/</guid>
       <description>&lt;p&gt;Last month marked the historic launch of New York&amp;rsquo;s medical marijuana program. Years of political wrangling and tireless advocacy have led up to this long-awaited moment when patients in New York will finally be able to legally purchase medical marijuana, including an unprecedented offering of kosher-certified medicine.&lt;/p&gt;
 &lt;p&gt;Producers have worked for five months to meet the ambitious deadline set by Gov. &lt;a href=&#34;https://www.timesunion.com/search/?action=search&amp;amp;channel=tuplus-opinion&amp;amp;inlineLink=1&amp;amp;searchindex=solr&amp;amp;query=%22Andrew&amp;#43;Cuomo%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andrew Cuomo&lt;/a&gt;, and the state has ensured that the implementation of the program follows the letter of the law.&lt;/p&gt;
 &lt;p&gt;But has it done enough to ensure patient access to compassionate medical care? What should be a momentous moment for patients, including those who have tirelessly advocated for the legalization of medical marijuana, is instead marked by more uncertainty and further delays.&lt;/p&gt;

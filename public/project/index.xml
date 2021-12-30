@@ -2,38 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Gina Moreno</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gina-m.rbind.io/project/</link>
+      <atom:link href="https://gina-m.rbind.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Gina Moreno, 2021</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>media/icon.png</url>
+      <url>https://gina-m.rbind.io/media/icon.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://gina-m.rbind.io/project/</link>
     </image>
     
     <item>
       <title>Estimating causal relationships among youth justice policies and rates of juvenile confinement</title>
-      <link>/project/ojjdp-project/</link>
+      <link>https://gina-m.rbind.io/project/ojjdp-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/ojjdp-project/</guid>
-      <description></description>
+      <guid>https://gina-m.rbind.io/project/ojjdp-project/</guid>
+      <description>&lt;p&gt;For this project, the research team explored and estimated the relationship between state-level juvenile justice policy environments and trends in the confinement of adjudicated youth from 1997 to 2015.&lt;/p&gt;
+&lt;p&gt;The study found that states with more rehabilitative juvenile justice policies tended to have lower rates of confined juveniles but the nationwide decline in the population of confined youth over time was not related to how progressive a state&amp;rsquo;s policy environment was.&lt;/p&gt;
+&lt;p&gt;Originally funded by a grant from the Office of Juvenile Justice and Delinquency Prevention, the project was supervised by the National Institute of Justice within the Office of Justice Programs, U.S. Department of Justice (2017-JF-FX-0064).&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Evaluation of the Osborne Association’s ReFORM Program</title>
-      <link>/project/osborne-project/</link>
+      <title>Evaluation of the Osborne Association&#39;s Prepare Program</title>
+      <link>https://gina-m.rbind.io/project/osborne-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/osborne-project/</guid>
-      <description></description>
+      <guid>https://gina-m.rbind.io/project/osborne-project/</guid>
+      <description>&lt;p&gt;In partnership with the Osborne Association, the research team at JohnJayREC conducted an outcome evaluation of the Prepare program which strives to improve relationships between formerly incarcerated fathers and their children.&lt;/p&gt;
+&lt;p&gt;The study used administrative and survey data to measure Prepare&amp;rsquo;s ability to help participants reconnect with their families and obtain employment. Data collected from interviews, focus groups, and program observations contextualized findings and led to recommendations on ways to improve or modify the program.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Mayor&#39;s Action Plan (MAP) Outcome Evaluation</title>
-      <link>/project/map-project/</link>
+      <link>https://gina-m.rbind.io/project/map-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/map-project/</guid>
-      <description></description>
+      <guid>https://gina-m.rbind.io/project/map-project/</guid>
+      <description>&lt;p&gt;Launched in 2014, the Mayor&amp;rsquo;s Action Plan (MAP) for Neighborhood Safety is a comprehensive initiative focused on the safety and well-being of residents living in 15 public housing communities, operated by the New York City Housing Authority (NYCHA), which have been disproportionately affected by crime in recent years.&lt;/p&gt;
+&lt;p&gt;The outcome evaluation of MAP focused on understanding the effects of the initiative and identifying outcome differences between MAP communities and a matched set of comparison NYCHA communities. Using administrative and survey data, researchers at JohnJayREC tested relationships between various efforts of MAP and key outcomes expected to result from those efforts. Results were documented and shared in a series of &lt;a href=&#34;https://johnjayrec.nyc/category/work-products-by-project/nyc-mayors-action-plan/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Evaluation Update reports&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tow Policy Advocacy Fellowship at the Drug Policy Alliance</title>
+      <link>https://gina-m.rbind.io/project/policyadvocacy-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gina-m.rbind.io/project/policyadvocacy-project/</guid>
+      <description>&lt;p&gt;The Tow Policy Advocacy Fellowship prepares graduate students to be skilled policy advocates for social justice. The fellowship places students in policy advocacy organizations and provides academic coursework to support and enrich the internships. Tow Fellows will have the opportunity to practice the skills of policy advocacy, gaining firsthand experience in the field with the attendant challenges and rewards along the way.&lt;/p&gt;
+&lt;p&gt;As a Tow Policy Advocacy Fellow at Drug Policy Alliance (DPA), I worked on New York&amp;rsquo;s drug policy reform campaigns by conducting regular outreach to constituents, developing informational materials and participating in coalition and legislative meetings. I also supported DPA&amp;rsquo;s inaugural Office of Academic Engagement, which connects researchers and policymakers.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

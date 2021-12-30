@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Gina Moreno</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gina-m.rbind.io/categories/</link>
+      <atom:link href="https://gina-m.rbind.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Gina Moreno, 2021</copyright>
     <image>
-      <url>media/icon.png</url>
+      <url>https://gina-m.rbind.io/media/icon.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://gina-m.rbind.io/categories/</link>
     </image>
     
   </channel>
