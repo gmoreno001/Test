@@ -32,22 +32,59 @@ Blah black
 
 Next I call in several `R` packages to help with the analysis:
 
-```{r}
+```{r echo=TRUE}
 library(tidyverse)
+library(lubridate)
+library(hrbrthemes)
+library(waffle)
+library(ggplot2)
+library(dplyr)
 ```
 
-```{r}
-dim(iris) #150 rows and 5 columns
-pairs(iris[,1:4], main = "Iris Data  (red=setosa,green=versicolor,blue=virginica)",
-      pch = 21, bg = c("red", "green3", "blue")[unclass(iris$Species)])
-library(e1071)
-library(class)
-classifier<-naiveBayes(iris[,1:4], iris[,5]) 
-table(predict(classifier, iris[,-5]), iris[,5])
-classifier<-naiveBayes(iris[,1:2], iris[,5]) 
-table(predict(classifier, iris[,-5]), iris[,5])
-library(caret)
-library(klaR)
+```{r echo=TRUE}
+# CREATE TIME DATA FRAME  
+start_date <- as.Date("2020-01-01")
+end_date <- as.Date("2020-12-31")
+time <- tibble(date = seq(start_date, end_date, by = "1 day")) 
+time$week <- format(time$date, "%W")
+time$day <- format(time$date, "%A")
+time$day_n <- format(time$date, "%u") 
+time$month <- format(time$date, "%B")
+time$month_n <- format(time$date, "%m")
+time$quarter <- quarter(time$date) 
+
+# IMPORT ACTIVITIES DATA 
+activities <- read.csv("C:/Users/John Jay REC/Downloads/activities_df.csv") #366 obs 6 vars 
+
+# Replace DNT with 0
+activities <- activities %>%
+  mutate(workout_or_not = replace(workout_or_not, workout_or_not == "DNT", 0),
+         mat_pt_mobility_session = replace(mat_pt_mobility_session, mat_pt_mobility_session == "DNT", 0),
+         incidental_exercise = replace(incidental_exercise, incidental_exercise == "DNT", 0)) %>%
+  mutate(workout_or_not = as.numeric(workout_or_not),
+         mat_pt_mobility_session = as.numeric(mat_pt_mobility_session),
+         incidental_exercise = as.numeric(incidental_exercise))
+
+# CONVERT DATE 
+activities$date <- as.Date(activities$date ,format = "%m/%d/%Y") 
+
+# JOIN ACTIVITIES DATA TO TIME DATA
+df <- left_join(time, activities, by = c("date")) #366 obs 12 vars
+
+# COMPUTE SUM OF ACTIVITIES FOR EACH DAY
+df <- df %>% 
+  mutate(sum_workout_mobility = workout_or_not + mat_pt_mobility_session,
+         sum_workout_incidental = workout_or_not + incidental_exercise, 
+         sum_all = workout_or_not + mat_pt_mobility_session + incidental_exercise)
+  
+# CONVERT TO FACTOR WITH LABELS 
+df <- df %>% mutate(quarter= factor(quarter, levels=c(1,2,3,4), 
+                                    labels=c("Jan to March", "April to June", "July to Sept", "Oct to Dec")),
+                    sum_all = factor(sum_all, levels = c(0,1,2,3), 
+                                     labels = c("0 recorded activity", "1 activity", "2 activities", "3 activities")))
+
+# COLLAPSE SUM OF ACTIVITIES BY QUARTER
+all_quarters <- df %>% count(quarter, sum_all)
 ```
 
 
