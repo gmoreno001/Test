@@ -7269,13 +7269,13 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #575E6A;
+  color: #747E8E;
   text-decoration: none;
   transition: color 0.6s ease; }
 
 a:hover,
 a:focus {
-  color: #575E6A; }
+  color: #173248; }
 
 .dark a,
 .dark h3.article-title a:hover {

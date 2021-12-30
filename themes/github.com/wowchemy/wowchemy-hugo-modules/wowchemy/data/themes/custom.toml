@@ -5,22 +5,22 @@ name = "Custom"
 light = true
 
 # Primary
-primary = "#575E6A" 
+primary = "#575E6A" #dark color 
 
 # Links
-#link = "#999999"
-#link_hover = "#173248"
+link = "#747E8E" #contrast color 
+link_hover = "#173248" #dark color 
 
 # Menu
 menu_primary = "#2D3645" #background of nav bar
-menu_text = "#CD8750"
-menu_text_active = "#CD8750" 
-menu_title = "#CD8750"  
+menu_text = "#FAFAFB" # light gray 
+menu_text_active = "#FAFAFB" 
+menu_title = "#FAFAFB"  
 
 # Home sections
 background = "rgb(255, 255, 255)" # page background
 home_section_odd = "rgb(255, 255, 255)" # white
-home_section_even = "#CD8750" # light gray 
+home_section_even = "#FAFAFB" # light gray 
 
 
 
