@@ -58,7 +58,8 @@ To keep myself committed to the process, I decided to track my progress across t
 
 There were many days I did not want to show up, for various reasons - the collective burnout, mental exhaustion, or just plain muscle fatigue. I did not always look forward to putting on my workout attire, strapping on my fitness tracker, and searching for the right playlist, so on days that I honored my body's need for rest, I'd recovery actively by going on longer walks or tackling more chores. This kept statis at bay and helped me not [**break the chain**](https://blog.doist.com/dont-break-the-chain/). 
 
-Figure links may be included either as markdown links, such as ![](mosaic_plot_activity_data.png)
+![](/post/test/test_files/figure-html/mosaic_plot_activity_data.png)
+
 
 ```{r echo=TRUE}
 library(tidyverse)
