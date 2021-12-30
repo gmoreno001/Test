@@ -8,7 +8,7 @@
 widget: blank  
 headless: true  # This file represents a page section.
 active: true # Activate this widget? true/false
-weight: 55  # Order that this section will appear.
+weight: 65  # Order that this section will appear.
 
 title: 
 subtitle: 
@@ -16,7 +16,7 @@ subtitle:
 design:
   columns: 1
   background:
-    image: gina_imageb.png 
+    image: gina_imagea.png 
     image_darken: 0.1
     image_parallax: true
     image_position: center
