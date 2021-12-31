@@ -1,7 +1,9 @@
 ---
 abstract: The Research and Evaluation Center measured the characteristics of state-level juvenile justice policies and estimated their association with changes in juvenile crime and youth confinement. Using data from the National Center for Juvenile Justice’s compendium of justice system characteristics, “Juvenile Justice, Geography, Policy, Practice & Statistics” (JJGPS), the research team created an index that accounted for 16 policies that were more or less progressive in terms of rehabilitative intent, compatibility with developmental science, focus on the use of “least restrictive” settings, and consistency with civil liberties and the need for balanced restraint on the powers of government to ensure public safety. The study assigned a score to each of the 50 states based on the extent to which its youth justice policy environment could be considered “progressive” as opposed to punitive or regressive. According to the study’s results, rates of youth confinement declined significantly across the country during the past two decades (modeled by a function of time), but states with more progressive policy environments did not demonstrate significantly steeper declines than less progressive states.
+
 author_notes:
 - 
+
 authors:
 - Douglas Evans 
 - Jeffrey Butts 

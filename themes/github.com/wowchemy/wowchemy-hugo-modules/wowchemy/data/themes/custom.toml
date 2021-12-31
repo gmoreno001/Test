@@ -4,23 +4,31 @@ name = "Custom"
 # Is theme light or dark?
 light = true
 
-# Primary
+# PRIMARY
 primary = "#575E6A" #dark color 
 
-# Links
-link = "#747E8E" #contrast color 
-link_hover = "#173248" #dark color 
+# LINKS
+#link = "#5599B1" #contrast color 
+link = "#1A92CB" #contrast color 
+#link_hover = "#173248" #dark color 
+link_hover = "#CE704A" #orange ish
 
-# Menu
-menu_primary = "#2D3645" #background of nav bar
-menu_text = "#FAFAFB" # light gray 
-menu_text_active = "#FAFAFB" 
-menu_title = "#FAFAFB"  
+# MENU
+menu_primary = "#3A3A3A" #background of nav bar
+#menu_text = "#FAFAFB" # light gray 
+#menu_text_active = "#FAFAFB" 
+#menu_title = "#FAFAFB"  
+menu_text = "#FFFCF4" # light color 
+menu_text_active = "#FFFCF4" 
+menu_title = "#FFFCF4"  
 
-# Home sections
-background = "rgb(255, 255, 255)" # page background
-home_section_odd = "rgb(255, 255, 255)" # white
-home_section_even = "#FAFAFB" # light gray 
+
+# HOME SECTIONS
+#background = "rgb(255, 255, 255)" # page background
+background = "#EDEEF3" 
+home_section_odd = "#EDEEF3" # white
+#home_section_even = "#FAFAFB" # light gray 
+home_section_even = "#EDEEF3" # light blue-gray 
 
 
 
