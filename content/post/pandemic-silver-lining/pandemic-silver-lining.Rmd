@@ -2,7 +2,7 @@
 title: "My pandemic silver lining"
 subtitle: "Experiencing the transformational quality of a single good habit"
 summary: "My experiences over the past year and a half broke the mould of my approach towards physical fitness."
-date: 2021-12-27
+publishDate: 2021-12-27
 lastMod: 2021-12-31
 authors:
  - admin
@@ -13,6 +13,10 @@ slug: v1
 #output:
 #  bookdown::html_document2:
 #    keep_md: yes
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -21,21 +25,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 
 
+*Every now then I count my blessings to have been relatively unscathed by the pandemic, health and employment wise. Here I take stock on how life took some unexpected turns for me.*
+
 As a kid, I actively participated in sports. I started playing badminton at 7 and was on my school’s team for more than half a decade. Then came a long hiatus as my priorities shifted to academics and getting into the university of my choice. Over time, I got more lazy and sluggish, and fitness was not a priority. 
 
 Sheltering-in-place and working from home over the past year and a half provided me the unexpected opportunity to rethink my entire approach to fitness. I sought physical therapy, joined a gym for the first time, signed up for personal training sessions, and participated in my first 5k. 
 
 ### Mobility 
 
-After the initial, destabilizing shock of the pandemic wore off, I realized I had untapped reserves of time and energy to pay attention to and address what was bothering me, the way my ankle would protest whenever I sat on them, or why I resolutely avoided [**burpees**](https://media.self.com/photos/5817a88e6839af65340d5371/master/w_1600,c_limit/MOUNTAIN_CLIMBERS.gif) and [**mountain climbers**](https://media.self.com/photos/5943fddc4e4e9b6122499b42/master/w_1920%2Cc_limit/burpees6.gif) (weak lower back). 
+After the initial, destabilizing shock of the pandemic wore off, I realized I had untapped reserves of time and energy to pay attention to and address what was bothering me, the way my ankle would protest whenever I sat on them, or why I resolutely avoided [**burpees**](https://media.self.com/photos/5943fddc4e4e9b6122499b42/master/w_1920%2Cc_limit/burpees6.gif) and [**mountain climbers**](https://media.self.com/photos/5817a88e6839af65340d5371/master/w_1600,c_limit/MOUNTAIN_CLIMBERS.gif) (weak lower back). 
 
 The “gift” of these aches and pains was that it sent me back to basics to master the fundamentals. My physical therapist prescribed me a cocktail of movements -- run-of-the-mill moves like balancing on one foot, holding a plank and maintaining proper posture -- to undo the damage I had accumulated from years of poor mobility. My “homework” was to repeat at home every day what I had learned during therapy. I felt like a bona fide beginner, taking stumble-ridden baby steps day after day till my body eventually learned new movement patterns and ranges of motion. 
 
-In order to sustain progress, I had to commit to practicing good habits throughout the day and not just during a workout. After all, you [**“can’t offset 10+ hours of sitting every day with a 1-hour workout.”**](https://twitter.com/SquatUniversity/status/1361782531557851141)
+In order to sustain progress, I had to commit to practicing good habits throughout the day and not just during a workout. After all, you "can’t offset 10+ hours of sitting every day with a 1-hour workout".^[Squat University [@SquatUniversity]. *Twitter*, 16 Feb 2021, https://twitter.com/SquatUniversity/status/1361782531557851141]
 
-This involved getting into various postures and positions, sometimes against the wall, sometimes on a chair but mostly on my yoga mat on the floor. I leaned into the discomfort and learned to “embrace the suck” of holding a pose or repeating a motion that was not particularly enjoyable, like sitting in a [**90-90 position**](https://imagesvc.meredithcorp.io/v3/mm/gif?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2019%2F12%2F90-90-hip.gif). 
+This involved getting into various postures and positions, sometimes against the wall, sometimes on a chair but mostly on my yoga mat on the floor. I leaned into the discomfort and learned to “embrace the suck” of holding a pose or repeating a motion that was not particularly enjoyable, like sitting [**90-90**](https://imagesvc.meredithcorp.io/v3/mm/gif?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2019%2F12%2F90-90-hip.gif). 
 
-On a positive note, performing these [**micro-movements**](https://parade.com/645657/marysauer/4-simple-micro-movements-to-stay-flexible-and-banish-aches-and-pains/) throughout the day helped break up the monotony of prolonged sessions of desk work. Taking multiple breaks to engage in light physical activity was something I was aware of but had all too conveniently assumed that a quick and intense workout a day would suffice to keep potential ailments at bay. 
+On a positive note, performing these [**micro-movements**](https://parade.com/645657/marysauer/4-simple-micro-movements-to-stay-flexible-and-banish-aches-and-pains/) throughout the day helped break up the monotony of prolonged sessions of desk work. Taking multiple breaks to engage in some physical activity was something I was aware of but had all too conveniently assumed that a quick and intense workout a day would suffice to keep potential ailments at bay. 
 
 ### Foray into #GymLife
 
@@ -53,7 +59,7 @@ Only recently did I learn about the concept of [**“incidental exercise”**](h
 
 ![](/post/pandemic-silver-lining/pandemic-silver-lining_files/figure-html/plague.png)
 
-At the same time, being restricted to one physical location meant I needed ways to channel and expend my restlessness. One such way that emerged organically was going on long walks with my dog. I cannot remember the last time I had simply meandered. Quite literally, I found myself “carried on foot by random currents from one block to another”.  Seeking out paths with less foot traffic, I explored nooks and crannies of the neighborhood I’d never passed through before. Moreover, restricted access to public transportation provided the initial impetus to accomplish almost all my chores and errands by foot. Having this new routine kept me grounded and lessened the claustrophobia of quarantine. 
+At the same time, being restricted to one physical location meant I needed ways to channel and expend my restlessness. One such way that emerged organically was going on long walks with my dog. I cannot remember the last time I had simply meandered. Quite literally, I found myself “carried on foot by random currents from one block to another”^[Trebay, Guy. “A Walker in the City.” 20 July, 2020, https://docs.google.com/document/d/1Loq9kKsm3EysWDt7AqZseaedoB-28-lRx6n9O4ml2xU/edit]. Seeking out paths with less foot traffic, I explored nooks and crannies of the neighborhood I’d never passed through before. Moreover, restricted access to public transportation provided the initial impetus to accomplish almost all my chores and errands by foot. Having this new routine kept me grounded and lessened the claustrophobia of quarantine. 
 
 ### Charting progress
 
@@ -61,7 +67,7 @@ My pandemic silver lining was experiencing the transformational quality of a sin
 
 The biggest takeaway for me: movement could happen across a range of venues and throughout the day, not just during a sweaty workout session. It could take the form of deep cleaning your home, taking long, leisurely walks, regularly preparing homecooked meals etc. An adage I kept returning to was [**“motion is lotion”**](https://besthealthphysio.ca/motion-is-lotion/). Any movement however small and humble was a step in the right direction.  
 
-There were many days I did not want to show up, for various reasons - the collective burnout, mental exhaustion, or just plain muscle fatigue. I did not always look forward to putting on my workout attire, strapping on my fitness tracker, and searching for the right playlist, so on days that I honored my body's need for rest, I'd recovery actively by going on longer walks or tackling more chores. This kept stasis at bay and kept me from [**breaking the chain**](https://blog.doist.com/dont-break-the-chain/). 
+There were many days I did not want to show up, for various reasons - the collective burnout, mental exhaustion, or just plain muscle fatigue. I did not always look forward to putting on my workout attire, strapping on my fitness tracker, and searching for the right playlist, so on days that I honored my body's need for rest, I'd recovery actively by going on longer walks or tackling more chores. This kept stasis at bay and kept me from [**breaking the chain**](https://blog.doist.com/dont-break-the-chain/) of good habits. 
 
 To keep myself committed to the process, I decided to track my progress across three dimensions – **performing mobility drills, engaging in workouts, and incidental exercise**. 
 
@@ -69,8 +75,8 @@ In the data graphic below, one dark green tile in quarter 1 meant that there was
 
 ![](/post/pandemic-silver-lining/pandemic-silver-lining_files/figure-html/mosaic_plot_activity_data.png)
 *Code to produce data graphic*
-^[There were days I was not able to track whether or not I have completed an acitivity so missing data is converted to 0, absence of activity to keep estimates on the conservative side]
-^[In thinking about the kind of visualization that would capture an entire year, I also considered the more traditional line graph, for instance, which would have depicted day-to-day variation whereas the mosaic plot conveys the main takeway much more effectively.]
+^[There were days I was not able to track whether or not I have completed an activity so missing data is converted to 0, absence of activity to keep estimates on the conservative side]
+^[In thinking about the kind of visualization that would capture the entire year, I also considered the line graph, for instance, which would have depicted day-to-day variation better. The mosaic plot however conveys the main takeaway much more effectively.]
 
 ```{r echo=TRUE, message = FALSE, warning = FALSE}
 library(tidyverse)
@@ -180,5 +186,9 @@ ggplot(all_quarters, aes(fill = sum_all, values = n)) +
   guides(fill = guide_legend(title = "Days with:")) +
   theme(strip.text.x = element_text(hjust = 0.5)) 
 ```
+
+*Thanks for reading! If you have thoughts or comments on this article, feel free to share them with me via [email](mailto:gmoreno482@gmail.com) or [Twitter](https://twitter.com/GinaMoreno__)* 
+
+
 
 

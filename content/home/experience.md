@@ -48,24 +48,20 @@ experience:
     description: 
     
   - title: Research Assistant 
-    company: John Jay College of Criminal Justice   
+    company: Extremist Crimes Database @ John Jay College    
     company_url: ''
     location: New York City
     date_start: '2016-09-01'
     date_end: '2017-07-01'
-    description: |2-
-      * Mixed Methods Evaluation of Youth-Police Initiative  
-      * Extremist Crimes Database 
-    
+    description:
+
   - title: Tow Policy Advocacy Fellow
     company: Drug Policy Alliance (DPA)
     company_url: 'https://drugpolicy.org/'
     location: New York City
     date_start: '2015-09-01'
     date_end: '2016-09-01'
-    description: |2- 
-        * Compassionate Care New York medical marijuana campaign
-        * Department of Research and Academic Engagement 
+    description:
     
   - title: John Jay Vera Fellow
     company: Vera Institute of Justice 
@@ -74,22 +70,18 @@ experience:
     location: New York City
     date_start: '2014-09-01'
     date_end: '2015-06-01'
-    description: |2- 
-      * Pathways from Prison To Postsecondary Education 
-      * Expanding Access To Postsecondary Education
+    description: 
     
   - title: Research Assistant 
-    company: John Jay College of Criminal Justice   
+    company: Dept. of Forensic Psychology & Dept. of Sociology, John Jay College   
     company_url: ''
     location: New York City
     date_start: '2014-05-01'
     date_end: '2015-05-01'
-    description: |2-
-      * Sex Offender Research Lab, Department of Forensic Psychology
-      * Department of Sociology  
+    description: 
     
   - title: Writing Center Tutor
-    company: John Jay College of Criminal Justice
+    company: John Jay College 
     company_url: ''
     location: New York City
     date_start: '2013-05-01'

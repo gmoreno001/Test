@@ -24,7 +24,8 @@ menu_title = "#FFFCF4"
 
 
 # HOME SECTIONS
-background = "rgb(255, 255, 255)" # page background
+#background = "rgb(255, 255, 255)" # page background
+background = "#FAFAFB"
 home_section_odd = "#FAFAFB" # white
 home_section_even = "#FAFAFB" #  
 
