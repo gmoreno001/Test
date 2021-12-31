@@ -14,9 +14,9 @@ slug: v1
 #  bookdown::html_document2:
 #    keep_md: yes
 image:
-  caption: ''
+  caption: 'Illustration: Caitlin Keegan'
   focal_point: ''
-  preview_only: yes
+  preview_only: no
 ---
 
 ```{r setup, include=FALSE}
@@ -25,19 +25,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 
 
-*I count my blessings to have been relatively unscathed by the pandemic, health, housing, employment etc. Here, I take stock of how  rearragement to routine  life took some unexpected turns for me.*
+*I count my blessings to have been relatively unscathed in more ways than one by the pandemic. Here, I take stock of how the unprecedented rearrangement of my day-to-day routine led to an unexpected turn in my physical well-being.*
 
 As a kid, I actively participated in sports. I started playing badminton at seven and was on my school’s team for more than half a decade. Then came a long hiatus as my priorities shifted to academics and getting into the university of my choice. Over time, I got more sluggish, and fitness was not a priority.
 
-Sheltering-in-place and working from home over the past year and a half provided me the unexpected opportunity to rethink my entire approach to fitness. I sought physical therapy, joined a gym for the first time, signed up for personal training sessions, and participated in my first 5k.
+Sheltering-in-place and working from home over the past year and a half, however, provided me the opportunity to rethink my entire approach to fitness. I sought physical therapy, joined a gym for the first time, signed up for personal training sessions, and participated in my first 5k.
 
-### Mobility 
+### Mobility 101
 
 After the initial, destabilizing shock of the pandemic wore off, I realized I had untapped reserves of time and energy to pay attention to and address what was bothering me; the way my ankle would protest whenever I sat on them, or why I resolutely avoided [**burpees**](https://media.self.com/photos/5943fddc4e4e9b6122499b42/master/w_1920%2Cc_limit/burpees6.gif) and [**mountain climbers**](https://media.self.com/photos/5817a88e6839af65340d5371/master/w_1600,c_limit/MOUNTAIN_CLIMBERS.gif) (weak lower back). 
 
-The “gift” of these aches and pains was that it sent me back to basics to master the fundamentals. My physical therapist prescribed me a cocktail of movements – run-of-the-mill moves like balancing on one foot, holding a plank, and maintaining proper posture; to undo the damage I had accumulated from years of poor mobility. My “homework” was to repeat what I had learned during therapy at home every day. I felt like a bona fide beginner, taking stumble-ridden baby steps day after day till my body eventually learned new movement patterns and ranges of motion. 
+The “gift” of these aches and pains was that it sent me back to basics to master the fundamentals. My physical therapist prescribed me a cocktail of movements -– run-of-the-mill moves like balancing on one foot, holding a plank, and maintaining proper posture -- to undo the damage I had accumulated from years of poor mobility. My “homework” was to repeat what I had learned during therapy at home every day. I felt like a bona fide beginner, taking stumble-ridden baby steps day after day till my body eventually learned new movement patterns and ranges of motion. 
 
-To sustain progress, I had to commit to practicing good habits throughout the day and not just during a workout. After all, you "can’t offset 10+ hours of sitting every day with a 1-hour workout".^[Squat University [@SquatUniversity]. *Twitter*, 16 Feb 2021, https://twitter.com/SquatUniversity/status/1361782531557851141]
+To sustain progress, I had to commit to practising good habits throughout the day and not just during a workout. After all, you "can’t offset 10+ hours of sitting every day with a 1-hour workout".^[Squat University [@SquatUniversity]. *Twitter*, 16 Feb 2021, https://twitter.com/SquatUniversity/status/1361782531557851141]
 
 This involved getting into various postures and positions, sometimes against the wall, sometimes on a chair but mostly on my yoga mat on the floor. I leaned into the discomfort and learned to “embrace the suck” of holding a pose or repeating a motion that was not particularly enjoyable, like sitting [**90-90**](https://imagesvc.meredithcorp.io/v3/mm/gif?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2019%2F12%2F90-90-hip.gif). 
 
