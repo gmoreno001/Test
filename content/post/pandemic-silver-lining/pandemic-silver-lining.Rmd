@@ -2,10 +2,11 @@
 title: "My pandemic silver lining"
 subtitle: "Experiencing the transformational quality of a single good habit"
 summary: "My experiences over the past year and a half broke the mould of my approach towards physical fitness."
-date: 2021-12-30
+date: 2021-12-27
+lastMod: 2021-12-31
 authors:
  - admin
-slug: pandemic-silver-lining
+slug: v1
 #categories: ["Blogging"]
 #tags: ["Blogdown", "R", "Blogging", "Markdown", "R Markdown"]
 ## For re-generating the md output from the original R code
@@ -14,10 +15,8 @@ slug: pandemic-silver-lining
 #    keep_md: yes
 ---
 
-```{r echo = FALSE}
-knitr::opts_chunk$set(comment = "#", fig.retina = 2)
-# comment out to regenerate plots, output, etc.
-knitr::opts_chunk$set(echo = FALSE, eval = FALSE)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ### 
@@ -40,11 +39,13 @@ On a positive note, performing these [**micro-movements**](https://parade.com/64
 
 ### Foray into #GymLife
 
-When I felt more confident in my body, I decided to take on a fitness challenge. Up to that point, I had a joyless, repetitive, meat-and-potatoes workout routine. High intensity interval training (HIIT) workouts were my go-to because I was myopically focused on maximizing caloric output in as little time as possible. It was not enough. I needed something straightforward and doable I could commit to like [**training for a 5k**](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/6-week-training-plan-5k-beginner-final-1591631365.jpg?crop=1xw:0.9995247148288974xh;center,top&resize=768:*).
+When I felt more confident in my body, I decided to take on a fitness challenge. Up to that point, I had a joyless, repetitive, meat-and-potatoes workout routine. High intensity interval training (HIIT) workouts were my go-to because I was myopically focused on maximizing caloric output in as little time as possible. It was not enough. I needed something straightforward and doable I could commit to like training for a 5k.
 
-Eager to stay true to my new training regime, I’d dutifully climb the treadmill like a hamster on its wheel, week after week. Running regularly made me aware of how much the past decade of desk work had stiffened my hip flexors and hamstrings. This was a weakness I could address now while at the gym by adding specific strength-building moves to a given workout. After years of perfunctory HIIT sessions, it was both rewarding and humbling to challenge my body in new ways. 
+![](/post/pandemic-silver-lining/pandemic-silver-lining_files/figure-html/6-week-training-plan-5k-beginner-final.png)
 
-Besides a [**well-curated playlist**](https://www.youtube.com/playlist?list=PLOFoWKkNKKpJrFuEZ-bltjBL3aDkkV_mY), another essential accessory on my fitness journey was an activity tracker. Wearing a watch that quantified my exertions appealed to my data-driven sensibilities. I looked forward to learning how many steps I had taken in a day or monitoring my heart rate during a workout. More importantly, I could measure and evaluate my progress over time (more on that below). A fitness tracker also provided objective contrast to my own subjective [**perceptions of much effort I was putting in**](https://www.verywellfit.com/perceived-exertion-scale-1231117), which could vary wildly depending on how motivated I felt that day, the quality of sleep I got the night before etc. 
+Eager to stay true to my new training regime (above), I’d dutifully climb the treadmill like a hamster on its wheel, week after week. Running regularly made me aware of how much the past decade of desk work had stiffened my hip flexors and hamstrings. This was a weakness I could address now while at the gym by adding specific strength-building moves to a given workout. After years of perfunctory HIIT sessions, it was both rewarding and humbling to challenge my body in new ways. 
+
+Besides a [**well-curated music playlist**](https://www.youtube.com/playlist?list=PLOFoWKkNKKpJrFuEZ-bltjBL3aDkkV_mY), another accessory essential to my fitness journey was an activity tracker. Wearing a watch that quantified my exertions appealed to my data-driven sensibilities. I looked forward to learning how many steps I had taken in a day or monitoring my heart rate during a workout. More importantly, I could measure and evaluate my progress over time (more on that below). A fitness tracker also provided objective contrast to my own subjective [**perceptions of much effort I was putting in**](https://www.verywellfit.com/perceived-exertion-scale-1231117), which could vary wildly depending on how motivated I felt that day, the quality of sleep I got the night before etc. 
 
 ### Incidental Exercise 
 
@@ -62,23 +63,22 @@ The biggest takeaway for me: movement could happen across a range of venues and 
 
 There were many days I did not want to show up, for various reasons - the collective burnout, mental exhaustion, or just plain muscle fatigue. I did not always look forward to putting on my workout attire, strapping on my fitness tracker, and searching for the right playlist, so on days that I honored my body's need for rest, I'd recovery actively by going on longer walks or tackling more chores. This kept stasis at bay and kept me from [**breaking the chain**](https://blog.doist.com/dont-break-the-chain/). 
 
-To keep myself committed to the process, I decided to track my progress across three dimensions – **performing mobility drills, engaging in workouts, and incidental exercise**. In the data graphic below, one dark green tile in quarter 1 meant that there was only one day in the first three months of the year where I'd recorded doing all three activities. 
+To keep myself committed to the process, I decided to track my progress across three dimensions – **performing mobility drills, engaging in workouts, and incidental exercise**. 
 
-Over time, the number of days I was not very active (0-1 recorded activities) discernibly decreased, and eventually in the last quarter I was most active overall. 
+In the data graphic below, one dark green tile in quarter 1 meant that there was only one day in the first three months of the year where I'd recorded doing all three activities. Over time, the number of days I was not very active (0-1 recorded activities) discernibly decreased, and eventually in the last quarter I was most active overall. 
 
 ![](/post/pandemic-silver-lining/pandemic-silver-lining_files/figure-html/mosaic_plot_activity_data.png)
 *Code to produce data graphic*
 ^[There were days I was not able to track whether or not I have completed an acitivity so missing data is converted to 0, absence of activity to keep estimates on the conservative side]
 ^[In thinking about the kind of visualization that would capture an entire year, I also considered the more traditional line graph, for instance, which would have depicted day-to-day variation whereas the mosaic plot conveys the main takeway much more effectively.]
 
-```{r echo=TRUE}
+```{r echo=TRUE, message = FALSE, warning = FALSE}
 library(tidyverse)
 library(lubridate)
 library(hrbrthemes)
 library(waffle)
 library(ggplot2)
 library(dplyr)
-library(googlesheets4)
 ```
 
 ```{r echo=TRUE}
@@ -86,12 +86,14 @@ library(googlesheets4)
 start_date <- as.Date("2020-01-01")
 end_date <- as.Date("2020-12-31")
 time <- tibble(date = seq(start_date, end_date, by = "1 day")) 
-time$week <- format(time$date, "%W")
-time$day <- format(time$date, "%A")
-time$day_n <- format(time$date, "%u") 
-time$month <- format(time$date, "%B")
-time$month_n <- format(time$date, "%m")
-time$quarter <- quarter(time$date) 
+time <- time %>% 
+  mutate(
+    week = format(date, "%W"),
+    day = format(date, "%A"),
+    day_n = format(date, "%u"),
+    month = format(date, "%B"),
+    month_n = format(date, "%m"),
+    quarter = quarter(date))
 ```
 
 ```{r echo=TRUE}
@@ -101,24 +103,36 @@ head(time)
 
 ```{r echo=FALSE}
 # IMPORT ACTIVITIES DATA 
+activities <- read.csv("C:/Users/John Jay REC/Downloads/activities_df.csv") #366 obs 6 vars 
+activities <- activities %>% select(-notes1, -notes2)
+```
+
+```{r eval=FALSE}
+# IMPORT ACTIVITIES DATA 
 activities <- read.csv("C:/Users/gmoreno/Downloads/activities_df.csv") #366 obs 6 vars 
 ```
 
 ```{r echo=TRUE}
+# DATA PREVIEW
+head(activities)
+```
 
+```{r eval=FALSE}
 # MISSING DATA
 round((sum(activities$workout_or_not == "DNT")/nrow(activities))*100, 2) #2.7%
 round((sum(activities$mat_pt_mobility_session == "DNT")/nrow(activities))*100, 2) #5.5%
 round((sum(activities$incidental_exercise == "DNT")/nrow(activities))*100, 2) #14.5%  
 
-# REPLACE "DID NOT TRACK" WITH 0 
+# REPLACE "DID NOT TRACK" WITH 0 (see footnote at the end)
 activities <- activities %>%
-  mutate(workout_or_not = replace(workout_or_not, workout_or_not == "DNT", 0),
-         mat_pt_mobility_session = replace(mat_pt_mobility_session, mat_pt_mobility_session == "DNT", 0),
-         incidental_exercise = replace(incidental_exercise, incidental_exercise == "DNT", 0)) %>%
-  mutate(workout_or_not = as.numeric(workout_or_not),
-         mat_pt_mobility_session = as.numeric(mat_pt_mobility_session),
-         incidental_exercise = as.numeric(incidental_exercise))
+  mutate(
+    workout_or_not = replace(workout_or_not, workout_or_not == "DNT", 0),
+    mat_pt_mobility_session = replace(mat_pt_mobility_session, mat_pt_mobility_session == "DNT", 0),
+    incidental_exercise = replace(incidental_exercise, incidental_exercise == "DNT", 0)) %>%
+  mutate(
+    workout_or_not = as.numeric(workout_or_not),
+    mat_pt_mobility_session = as.numeric(mat_pt_mobility_session),
+    incidental_exercise = as.numeric(incidental_exercise))
 
 # CONVERT DATE 
 activities$date <- as.Date(activities$date ,format = "%m/%d/%Y") 
@@ -128,19 +142,26 @@ df <- left_join(time, activities, by = c("date")) #366 obs 12 vars
 
 # COMPUTE SUM OF ACTIVITIES FOR EACH DAY
 df <- df %>% 
-  mutate(sum_workout_mobility = workout_or_not + mat_pt_mobility_session,
-         sum_workout_incidental = workout_or_not + incidental_exercise, 
-         sum_all = workout_or_not + mat_pt_mobility_session + incidental_exercise)
+  mutate(
+    sum_workout_mobility = workout_or_not + mat_pt_mobility_session,
+    sum_workout_incidental = workout_or_not + incidental_exercise, 
+    sum_all = workout_or_not + mat_pt_mobility_session + incidental_exercise)
   
 # CONVERT TO FACTOR WITH LABELS 
-df <- df %>% mutate(quarter= factor(quarter, levels=c(1,2,3,4), 
-                                    labels=c("Jan to March", "April to June", "July to Sept", "Oct to Dec")),
-                    sum_all = factor(sum_all, levels = c(0,1,2,3), 
-                                     labels = c("0 recorded activity", "1 activity", "2 activities", "3 activities")))
+df <- df %>% 
+  mutate(
+    quarter = factor(quarter, 
+                    levels=c(1,2,3,4), 
+                    labels=c("Jan-Mar", "Apr-June", "July-Sept", "Oct-Dec")),
+    sum_all = factor(sum_all, 
+                     levels = c(0,1,2,3), 
+                     labels = c("0 recorded activity", "1 activity", "2 activities", "3 activities")))
 
 # COLLAPSE SUM OF ACTIVITIES BY QUARTER
 all_quarters <- df %>% count(quarter, sum_all)
+```
 
+```{r eval=FALSE}
 # CREATE DATA GRAPHIC! 
 ggplot(all_quarters, aes(fill = sum_all, values = n)) +
   geom_waffle(color = "white", size = .25, n_rows = 4, flip = TRUE, height = 0.95, width = 0.95) +
