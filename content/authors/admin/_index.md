@@ -34,7 +34,7 @@ interests:
 
 organizations:
 - name: John Jay College Research and Evaluation Center
-  url: https://johnjayrec.nyc/
+  url: 
 
 role: Senior Research Analyst
 
