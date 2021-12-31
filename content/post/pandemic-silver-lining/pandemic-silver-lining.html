@@ -47,15 +47,19 @@ slug: pandemic-silver-lining
 <p>My pandemic silver lining was experiencing the transformational quality of a single good habit; my experiences over the past year and a half months broke the mold of how I approached physical fitness.</p>
 <p>The biggest takeaway for me: movement could happen across a range of venues and throughout the day, not just during a sweaty workout session. It could take the form of deep cleaning your home, taking long, leisurely walks, regularly preparing homecooked meals etc. An adage I kept returning to was <a href="https://besthealthphysio.ca/motion-is-lotion/"><strong>“motion is lotion”</strong></a>. Any movement however small and humble was a step in the right direction.</p>
 <p>There were many days I did not want to show up, for various reasons - the collective burnout, mental exhaustion, or just plain muscle fatigue. I did not always look forward to putting on my workout attire, strapping on my fitness tracker, and searching for the right playlist, so on days that I honored my body’s need for rest, I’d recovery actively by going on longer walks or tackling more chores. This kept stasis at bay and kept me from <a href="https://blog.doist.com/dont-break-the-chain/"><strong>breaking the chain</strong></a>.</p>
-<p>To keep myself committed to the process, I decided to track my progress across three dimensions – performing mobility drills, engaging in workouts, and incidental exercise. Over time, …</p>
+<p>To keep myself committed to the process, I decided to track my progress across three dimensions – <strong>performing mobility drills, engaging in workouts, and incidental exercise</strong>. In the data graphic below, one dark green tile in quarter 1 meant that there was only one day in the first three months of the year where I’d recorded doing all three activities.</p>
+<p>Over time, the number of days I was not very active (0-1 recorded activities) discernibly decreased, and eventually in the last quarter I was most active overall.</p>
 <p><img src="/post/pandemic-silver-lining/pandemic-silver-lining_files/figure-html/mosaic_plot_activity_data.png" />
-<em>Code to produce data graphic</em></p>
+<em>Code to produce data graphic</em>
+<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>
+<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
 <pre class="r"><code>library(tidyverse)
 library(lubridate)
 library(hrbrthemes)
 library(waffle)
 library(ggplot2)
-library(dplyr)</code></pre>
+library(dplyr)
+library(googlesheets4)</code></pre>
 <pre class="r"><code># CREATE TIME DATA FRAME  
 start_date &lt;- as.Date(&quot;2020-01-01&quot;)
 end_date &lt;- as.Date(&quot;2020-12-31&quot;)
@@ -65,12 +69,15 @@ time$day &lt;- format(time$date, &quot;%A&quot;)
 time$day_n &lt;- format(time$date, &quot;%u&quot;) 
 time$month &lt;- format(time$date, &quot;%B&quot;)
 time$month_n &lt;- format(time$date, &quot;%m&quot;)
-time$quarter &lt;- quarter(time$date) 
+time$quarter &lt;- quarter(time$date) </code></pre>
+<pre class="r"><code># DATA PREVIEW
+head(time)</code></pre>
+<pre class="r"><code># MISSING DATA
+round((sum(activities$workout_or_not == &quot;DNT&quot;)/nrow(activities))*100, 2) #2.7%
+round((sum(activities$mat_pt_mobility_session == &quot;DNT&quot;)/nrow(activities))*100, 2) #5.5%
+round((sum(activities$incidental_exercise == &quot;DNT&quot;)/nrow(activities))*100, 2) #14.5%  
 
-# IMPORT ACTIVITIES DATA 
-activities &lt;- read.csv(&quot;C:/Users/John Jay REC/Downloads/activities_df.csv&quot;) #366 obs 6 vars 
-
-# Replace &#39;Did not track&#39; with 0
+# REPLACE &quot;DID NOT TRACK&quot; WITH 0 
 activities &lt;- activities %&gt;%
   mutate(workout_or_not = replace(workout_or_not, workout_or_not == &quot;DNT&quot;, 0),
          mat_pt_mobility_session = replace(mat_pt_mobility_session, mat_pt_mobility_session == &quot;DNT&quot;, 0),
@@ -117,4 +124,11 @@ ggplot(all_quarters, aes(fill = sum_all, values = n)) +
   theme(panel.grid = element_blank(), axis.ticks.y = element_line()) + 
   guides(fill = guide_legend(title = &quot;Days with:&quot;)) +
   theme(strip.text.x = element_text(hjust = 0.5)) </code></pre>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>There were days I was not able to track whether or not I have completed an acitivity so missing data is converted to 0, absence of activity to keep estimates on the conservative side<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>In thinking about the kind of visualization that would capture an entire year, I also considered the more traditional line graph, for instance, which would have depicted day-to-day variation whereas the mosaic plot conveys the main takeway much more effectively.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>

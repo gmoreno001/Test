@@ -62,10 +62,14 @@ The biggest takeaway for me: movement could happen across a range of venues and 
 
 There were many days I did not want to show up, for various reasons - the collective burnout, mental exhaustion, or just plain muscle fatigue. I did not always look forward to putting on my workout attire, strapping on my fitness tracker, and searching for the right playlist, so on days that I honored my body's need for rest, I'd recovery actively by going on longer walks or tackling more chores. This kept stasis at bay and kept me from [**breaking the chain**](https://blog.doist.com/dont-break-the-chain/). 
 
-To keep myself committed to the process, I decided to track my progress across three dimensions – performing mobility drills, engaging in workouts, and incidental exercise. Over time, ...  
+To keep myself committed to the process, I decided to track my progress across three dimensions – **performing mobility drills, engaging in workouts, and incidental exercise**. In the data graphic below, one dark green tile in quarter 1 meant that there was only one day in the first three months of the year where I'd recorded doing all three activities. 
+
+Over time, the number of days I was not very active (0-1 recorded activities) discernibly decreased, and eventually in the last quarter I was most active overall. 
 
 ![](/post/pandemic-silver-lining/pandemic-silver-lining_files/figure-html/mosaic_plot_activity_data.png)
 *Code to produce data graphic*
+^[There were days I was not able to track whether or not I have completed an acitivity so missing data is converted to 0, absence of activity to keep estimates on the conservative side]
+^[In thinking about the kind of visualization that would capture an entire year, I also considered the more traditional line graph, for instance, which would have depicted day-to-day variation whereas the mosaic plot conveys the main takeway much more effectively.]
 
 ```{r echo=TRUE}
 library(tidyverse)
@@ -74,6 +78,7 @@ library(hrbrthemes)
 library(waffle)
 library(ggplot2)
 library(dplyr)
+library(googlesheets4)
 ```
 
 ```{r echo=TRUE}
@@ -87,11 +92,26 @@ time$day_n <- format(time$date, "%u")
 time$month <- format(time$date, "%B")
 time$month_n <- format(time$date, "%m")
 time$quarter <- quarter(time$date) 
+```
 
+```{r echo=TRUE}
+# DATA PREVIEW
+head(time)
+```
+
+```{r echo=FALSE}
 # IMPORT ACTIVITIES DATA 
-activities <- read.csv("C:/Users/John Jay REC/Downloads/activities_df.csv") #366 obs 6 vars 
+activities <- read.csv("C:/Users/gmoreno/Downloads/activities_df.csv") #366 obs 6 vars 
+```
 
-# Replace 'Did not track' with 0
+```{r echo=TRUE}
+
+# MISSING DATA
+round((sum(activities$workout_or_not == "DNT")/nrow(activities))*100, 2) #2.7%
+round((sum(activities$mat_pt_mobility_session == "DNT")/nrow(activities))*100, 2) #5.5%
+round((sum(activities$incidental_exercise == "DNT")/nrow(activities))*100, 2) #14.5%  
+
+# REPLACE "DID NOT TRACK" WITH 0 
 activities <- activities %>%
   mutate(workout_or_not = replace(workout_or_not, workout_or_not == "DNT", 0),
          mat_pt_mobility_session = replace(mat_pt_mobility_session, mat_pt_mobility_session == "DNT", 0),

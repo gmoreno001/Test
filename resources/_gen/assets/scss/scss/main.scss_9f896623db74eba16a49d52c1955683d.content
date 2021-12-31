@@ -7164,7 +7164,7 @@ body {
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
-  background-color: #EDEEF3;
+  background-color: #FAFAFB;
   padding-top: 0;
   counter-reset: captions;
   overflow-x: hidden;
@@ -7405,7 +7405,7 @@ small,
  *  Modals.
  **************************************************/
 .modal-content {
-  background: #EDEEF3; }
+  background: #FAFAFB; }
 
 .modal-title {
   margin: 0;
@@ -8063,7 +8063,7 @@ a.summary-link {
 .search-results {
   transform: scale(0);
   -webkit-transform: scale(0);
-  background-color: #EDEEF3;
+  background-color: #FAFAFB;
   bottom: 0;
   left: 0;
   right: 0;
@@ -8102,7 +8102,7 @@ a.summary-link {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #EDEEF3;
+  background-color: #FAFAFB;
   padding-top: 2rem;
   padding-bottom: 1rem; }
 
@@ -8515,7 +8515,7 @@ ul.share li:hover i {
  *  Page Builder: sections and widgets
  **************************************************/
 .home-section {
-  background: white;
+  background: #FAFAFB;
   position: relative;
   padding: 30px 0 30px 0;
   z-index: 0; }
@@ -8589,7 +8589,7 @@ ul.share li:hover i {
   padding-top: 50px; }
 
 .home-section:nth-of-type(even) {
-  background: #CBD5E6; }
+  background: #FAFAFB; }
 
 .dark .home-section {
   background: #272935; }
