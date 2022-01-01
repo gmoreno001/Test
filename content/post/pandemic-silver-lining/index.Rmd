@@ -6,7 +6,7 @@ publishDate: 2021-12-27
 lastMod: 2021-12-31
 authors:
  - admin
-slug: v1
+slug: pandemic-silver-lining
 #categories: ["Blogging"]
 #tags: ["Blogdown", "R", "Blogging", "Markdown", "R Markdown"]
 ## For re-generating the md output from the original R code
