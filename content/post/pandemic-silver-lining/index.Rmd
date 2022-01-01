@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 
 
-*I count my blessings to have been relatively unscathed in more ways than one by the pandemic. Here, I take stock of how the unprecedented rearrangement of my day-to-day routine led to an unexpected turn in my physical well-being.*
+*I count my blessings to have been relatively unscathed by the pandemic in more ways than one. Here, I take stock of how the rearrangement of my day-to-day routine led to unexpected developments in my physical well-being.*
 
 As a kid, I actively participated in sports. I started playing badminton at seven and was on my school’s team for more than half a decade. Then came a long hiatus as my priorities shifted to academics and getting into the university of my choice. Over time, I got more sluggish, and fitness was not a priority.
 
@@ -37,7 +37,7 @@ After the initial, destabilizing shock of the pandemic wore off, I realized I ha
 
 The “gift” of these aches and pains was that it sent me back to basics to master the fundamentals. My physical therapist prescribed me a cocktail of movements -– run-of-the-mill moves like balancing on one foot, holding a plank, and maintaining proper posture -- to undo the damage I had accumulated from years of poor mobility. My “homework” was to repeat what I had learned during therapy at home every day. I felt like a bona fide beginner, taking stumble-ridden baby steps day after day till my body eventually learned new movement patterns and ranges of motion. 
 
-To sustain progress, I had to commit to practising good habits throughout the day and not just during a workout. After all, you "can’t offset 10+ hours of sitting every day with a 1-hour workout".^[Squat University [@SquatUniversity]. *Twitter*, 16 Feb 2021, https://twitter.com/SquatUniversity/status/1361782531557851141]
+To sustain progress, I had to commit to practicing good habits throughout the day and not just during a workout. After all, you "can’t offset 10+ hours of sitting every day with a 1-hour workout".^[Squat University [@SquatUniversity]. *Twitter*, 16 Feb 2021, https://twitter.com/SquatUniversity/status/1361782531557851141]
 
 This involved getting into various postures and positions, sometimes against the wall, sometimes on a chair but mostly on my yoga mat on the floor. I leaned into the discomfort and learned to “embrace the suck” of holding a pose or repeating a motion that was not particularly enjoyable, like sitting [**90-90**](https://imagesvc.meredithcorp.io/v3/mm/gif?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2019%2F12%2F90-90-hip.gif). 
 
@@ -73,9 +73,9 @@ To keep myself committed to the process, I decided to track my progress across t
 
 ![](/post/pandemic-silver-lining/pandemic-silver-lining_files/figure-html/mosaic_plot_activity_data.png)
 
-A dark green tile in quarter one meant that there was only one day in that time period where I had engaged in all three activities. Over time, the number of days I was not very active (i.e. 0-1 recorded activities) demonstrably decreased, with the final quarter being the period I was most active. I channeled this momentum and it became my new normal in 2021. 
+A dark green tile in quarter one meant that there was only one day in that time period where I had engaged in all three activities. Over time, the number of days I was not very active (i.e. 0-1 recorded activities) demonstrably decreased, with the final quarter being when I was most active. I channeled this momentum and it became my new normal in 2021. 
 
-*Code to produce data graphic*
+*Code to produce mosaic plot (data graphic)*
 ^[There were days I was not able to track whether or not I have completed an activity so missing data is converted to 0, absence of activity to keep estimates on the conservative side]
 ^[In thinking about the kind of visualization that would capture the entire year, I also considered the line graph, for instance, which would have depicted day-to-day variation better. The mosaic plot however conveys the main takeaway much more effectively.]
 
