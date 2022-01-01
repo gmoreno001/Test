@@ -69,11 +69,12 @@ The biggest takeaway for me: movement could happen across a range of venues and 
 
 There were many days I did not want to show up, for various reasons - the collective burnout, mental exhaustion, or just plain muscle fatigue. I did not always look forward to putting on my workout attire, strapping on my fitness tracker, and searching for the right playlist, so on days that I honored my body's need for rest, I'd recovery actively by going on longer walks or tackling more chores. This kept stasis at bay and kept me from [**breaking the chain**](https://blog.doist.com/dont-break-the-chain/) of good habits. 
 
-To keep myself committed to the process, I decided to track my progress across three dimensions – **performing mobility drills, engaging in workouts, and incidental exercise**. 
-
-In the data graphic below, one dark green tile in quarter 1 meant that there was only one day in the first three months of the year where I'd recorded doing all three activities. Over time, the number of days I was not very active (0-1 recorded activities) discernibly decreased, and eventually in the last quarter I was most active overall. 
+To keep myself committed to the process, I decided to track my progress across three dimensions of activity – **mobility drills, workouts, and incidental exercise**. 
 
 ![](/post/pandemic-silver-lining/pandemic-silver-lining_files/figure-html/mosaic_plot_activity_data.png)
+
+A dark green tile in quarter one meant that there was only one day in that time period where I had engaged in all three activities. Over time, the number of days I was not very active (i.e. 0-1 recorded activities) demonstrably decreased, with the final quarter being the period I was most active. I channeled this momentum and it became my new normal in 2021. 
+
 *Code to produce data graphic*
 ^[There were days I was not able to track whether or not I have completed an activity so missing data is converted to 0, absence of activity to keep estimates on the conservative side]
 ^[In thinking about the kind of visualization that would capture the entire year, I also considered the line graph, for instance, which would have depicted day-to-day variation better. The mosaic plot however conveys the main takeaway much more effectively.]
