@@ -9,12 +9,17 @@ primary = "#575E6A" #dark color
 
 # LINKS
 #link = "#5599B1" #contrast color 
-link = "#1A92CB" #contrast color 
+#link = "#1A92CB" #contrast color 
+link = "#C0883B" #dark yellow
+
 #link_hover = "#173248" #dark color 
-link_hover = "#CE704A" #orange ish
+#link_hover = "#CE704A" #orange-ish
+link_hover = "#E29A36" #gold-ish
 
 # MENU
-menu_primary = "#3A3A3A" #background of nav bar
+#menu_primary = "#3A3A3A" #background of nav bar
+menu_primary = "#1A2D4C"
+
 #menu_text = "#FAFAFB" # light gray 
 #menu_text_active = "#FAFAFB" 
 #menu_title = "#FAFAFB"  
@@ -25,9 +30,9 @@ menu_title = "#FFFCF4"
 
 # HOME SECTIONS
 #background = "rgb(255, 255, 255)" # page background
-background = "#FAFAFB"
-home_section_odd = "#FAFAFB" # white
-home_section_even = "#FAFAFB" #  
+background = "#FFFFFF"
+home_section_odd = "#FFFFFF" 
+home_section_even = "#FFFFFF" 
 
 
 
